@@ -1,6 +1,6 @@
 {
   "project_info": {
-    "project_number": "148821780185",
+    "project_number": "",
     "firebase_url": "https://gcmletsgo.firebaseio.com",
     "project_id": "gcmletsgo",
     "storage_bucket": "gcmletsgo.appspot.com"
@@ -8,32 +8,32 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:148821780185:android:141ba168effaab1c",
+        "mobilesdk_app_id": "",
         "android_client_info": {
           "package_name": "br.com.tutorialandroid.splashscreen"
         }
       },
       "oauth_client": [
         {
-          "client_id": "148821780185-ec77f8d3vtsmsbo0hf9fldn7rdfi58sr.apps.googleusercontent.com",
+          "client_id": "",
           "client_type": 1,
           "android_info": {
             "package_name": "br.com.tutorialandroid.splashscreen",
-            "certificate_hash": "507e67cd6a37afc5d495b8c8a99ab7396a070039"
+            "certificate_hash": ""
           }
         },
         {
-          "client_id": "148821780185-i8dkvquktkdp3u1hcjs5k4gdflq739l3.apps.googleusercontent.com",
+          "client_id": "",
           "client_type": 3
         },
         {
-          "client_id": "148821780185-kugcqtr4p46jscgrb3ca58qf26pgngt8.apps.googleusercontent.com",
+          "client_id": "1",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyClU1Hx4HkAgCxdIMeNbjQfHd3iRAfWtR4"
+          "current_key": ""
         }
       ],
       "services": {
