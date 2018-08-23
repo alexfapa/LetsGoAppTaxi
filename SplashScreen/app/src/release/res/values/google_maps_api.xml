@@ -19,6 +19,6 @@
     -->
     <!--Isso estava dentro do String name="" templateMergeStrategy="preserve" translatable="false"-->
     <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">
-         AIzaSyBiW8q3pHpnX7sPDxYpxbAiqQnEmKoMcuw
+         
     </string>
 </resources>
