@@ -84,7 +84,7 @@ public class MainWS extends AppCompatActivity {
                 String text = texto.getText().toString();   //Pega String digitado pelo usuário
 
                 String chamadaWS;
-                chamadaWS = "http://192.168.1.5:8080/WebService/webresources/ProjetoWS/Usuario/get/" + text; //Endereço WebService
+                chamadaWS = ""
 
                 String resultado = acesso.chamadaGet(chamadaWS); // O AcessoRest verifica a URL e chama
                 Log.i("JSON", resultado);
@@ -94,7 +94,7 @@ public class MainWS extends AppCompatActivity {
                 //Usuario u = new Usuario();
                 //Type UsuarioType =new TypeToken<Usuario>(){}.getType();
 
-                //String chamadaWS = "http://192.168.1.5:8080/.......";
+                //String chamadaWS = "";
                 //String json = http.sendGet(chamadaWS, "GET");
                 //u = g.fromJson(json, usuarioType);
                 //System.out.println(u.getLogin());
@@ -197,7 +197,7 @@ public class MainWS extends AppCompatActivity {
             HttpClient httpClient = new DefaultHttpClient();
 
             HttpGet del =
-                    new HttpGet("http://192.168.1.5:8080/WebService/webresources/ProjetoWS/Usuario/list");
+                    new HttpGet(");
 
             del.setHeader("content-type", "application/json");
 
@@ -263,7 +263,7 @@ public class MainWS extends AppCompatActivity {
             String login = params[0];
 
             HttpGet del =
-                    new HttpGet("http://192.168.1.5:8080/WebService/webresources/ProjetoWS/Usuario/get/" + login);
+                    new HttpGet("/" + login);
 
             del.setHeader("content-type", "application/json");
 
@@ -306,7 +306,7 @@ public class MainWS extends AppCompatActivity {
 
             HttpClient httpClient = new DefaultHttpClient();
 
-            HttpPut put = new HttpPut("http://192.168.1.5:8080/WebService/webresources/ProjetoWS/Usuario/inserir");
+            HttpPut put = new HttpPut("");
             put.setHeader("content-type", "application/json");
 
             try
@@ -341,7 +341,7 @@ public class MainWS extends AppCompatActivity {
 
             if (result)
             {
-                lblResultado.setText("Actualizado OK.");
+                lblResultado.setText("Atualizado OK.");
             }
         }
     }
@@ -359,7 +359,7 @@ public class MainWS extends AppCompatActivity {
             String login = params[0];
 
             HttpDelete del =
-                    new HttpDelete("http://192.168.1.5:8080/WebService/webresources/ProjetoWS/Usuario/excluir/" + login);
+                    new HttpDelete("" + login);
 
             del.setHeader("content-type", "application/json");
 
@@ -398,7 +398,7 @@ public class MainWS extends AppCompatActivity {
 
             HttpClient httpClient = new DefaultHttpClient();
 
-            HttpPost post = new HttpPost("http://192.168.1.5:8080/WebService/webresources/ProjetoWS/Usuario/inserir");
+            HttpPost post = new HttpPost("");
             post.setHeader("content-type", "application/json");
 
             try
