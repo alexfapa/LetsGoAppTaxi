@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="100dp"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:weightSum="5"
+    android:background="@android:color/white">
+
+    <TextView
+        android:id="@+id/nome"
+        android:textColor="@color/colorBlack"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/data_nasc"
+        android:textColor="@color/colorBlack"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/phone"
+        android:textColor="@color/colorBlack"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+
+    <!--<TextView
+        android:id="@+id/cpf"
+        android:textColor="@color/colorBlack"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>-->
+
+    <TextView
+        android:id="@+id/email"
+        android:textColor="@color/colorBlack"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/cep"
+        android:textColor="@color/colorBlack"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/end"
+        android:textColor="@color/colorBlack"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/end_num"
+        android:textColor="@color/colorBlack"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/complemento"
+        android:textColor="@color/colorBlack"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/bairro"
+        android:textColor="@color/colorBlack"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/uf"
+        android:textColor="@color/colorBlack"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/cidade"
+        android:textColor="@color/colorBlack"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+<!--
+    <TextView
+        android:id="@+id/cnh"
+        android:textColor="@color/colorBlack"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/placa_carro"
+        android:textColor="@color/colorBlack"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/alvara"
+        android:textColor="@color/colorBlack"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/cracha"
+        android:textColor="@color/colorBlack"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/agencia"
+        android:textColor="@color/colorBlack"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/operacao"
+        android:textColor="@color/colorBlack"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/conta"
+        android:textColor="@color/colorBlack"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"/>
+        -->
+
+</LinearLayout>

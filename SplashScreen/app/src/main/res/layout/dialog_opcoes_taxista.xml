@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:text="CHEGO EM 5 MINUTOS"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_chegoemcinco"
+            android:background="@android:color/holo_orange_dark" />
+
+         <Button
+             android:text="TÁXI CHEGANDO"
+             android:textColor="#ffffff"
+             android:textSize="20dp"
+             android:gravity="center"
+             android:layout_marginTop="20dp"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:id="@+id/btn_taxichegando"
+             android:background="@android:color/holo_orange_dark" />
+
+        <Button
+            android:text="TÁXI DANDO A VOLTA NO QUARTEIRÃO"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_taxidobrando"
+            android:background="@android:color/holo_orange_dark" />
+
+          <Button
+              android:text="TRÂNSITO CHEIO, CHEGO EM 10 MINUTOS"
+              android:textColor="#ffffff"
+              android:textSize="20dp"
+              android:gravity="center"
+              android:layout_marginTop="20dp"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/btn_transitocheio"
+              android:background="@android:color/holo_orange_dark" />
+
+        <Button
+            android:text="IMPREVISTO, IREI ATRASAR"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_atrasando"
+            android:background="@android:color/holo_orange_dark" />
+
+    </LinearLayout>
+</LinearLayout>

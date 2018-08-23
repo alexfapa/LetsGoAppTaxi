@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="5dp"
+    android:paddingTop="5dp"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:weightSum="5">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:id="@+id/tv_id_cliente"
+        android:text="id"
+        android:visibility="invisible"
+        android:textColor="#00a7f5" />
+
+    <TextView
+        android:id="@+id/hora_c"
+        android:layout_width="1dp"
+        android:layout_height="0dp"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/data_c"
+        android:layout_width="1dp"
+        android:layout_height="0dp"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/origem_c"
+        android:layout_width="1dp"
+        android:layout_height="0dp"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/destino_c"
+        android:layout_width="1dp"
+        android:layout_height="0dp"
+        android:visibility="invisible" />
+
+    <!--
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_id_taxista"
+            android:text="id_taxista"
+            android:textSize="20dp"
+            android:textColor="#00a7f5"
+            aid:layout_weight="1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_nome_cliente"
+            android:text="Nome"
+            android:textSize="20dp"
+            android:textColor="#00a7f5"/>
+        -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_preco_cliente"
+        android:text="1000 $"
+        android:textSize="20dp"
+        android:textColor="#00ac0b" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_descricao_cliente"
+        android:text="Forma de Pagamento"
+        android:textSize="16dp"
+        android:textColor="#000" />
+
+
+    <!--    <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="5"
+            android:background="@android:color/white">
+
+            <TextView
+                android:id="@+id/tv_id_cliente"
+                android:textColor="@color/colorBlack"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/tv_preco_cliente"
+                android:textColor="@color/colorBlack"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/tv_descricao_cliente"
+                android:textColor="@color/colorBlack"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"/>
+
+        </LinearLayout>-->
+
+</LinearLayout>

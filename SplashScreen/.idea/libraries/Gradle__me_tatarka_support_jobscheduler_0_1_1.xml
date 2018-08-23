@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: me.tatarka.support:jobscheduler-0.1.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/jobscheduler-0.1.1.aar/e6404c18a49f299fb8f9cd476401d1ce/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/jobscheduler-0.1.1.aar/e6404c18a49f299fb8f9cd476401d1ce/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/me.tatarka.support/jobscheduler/0.1.1/d6556b8a93daf505bf264388519bc482e1af3af/jobscheduler-0.1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

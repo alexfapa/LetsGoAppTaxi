@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".ConfirmacaoPayPal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/check"
+            android:scaleType="fitCenter"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="140dp"/>
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:src="@drawable/pgto"
+            android:scaleType="fitCenter"
+            android:layout_gravity="center"
+            android:layout_marginTop="-20dp"/>
+
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="100dp"
+            android:src="@drawable/linha"
+            android:scaleType="fitCenter"
+            android:layout_gravity="center"
+            android:layout_marginTop="-60dp"/>
+
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="100dp"
+            android:src="@drawable/linha"
+            android:scaleType="fitCenter"
+            android:layout_gravity="center"
+            android:layout_marginTop="-280dp"/>
+
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!--android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"-->
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Status: " />
+
+            <TextView
+                android:id="@+id/paymentStatus"
+                android:layout_width="wrap_content"
+                android:textStyle="bold"
+                android:layout_height="wrap_content" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="ID de Pagamento: " />
+
+            <TextView
+                android:id="@+id/paymentId"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Data: " />
+
+            <TextView
+                android:id="@+id/createTime"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Valor pago: " />
+
+            <TextView
+                android:id="@+id/paymentAmount"
+                android:layout_width="wrap_content"
+                android:textSize="30dp"
+                android:layout_marginLeft="50dp"
+                android:textStyle="bold"
+                android:layout_height="wrap_content" />
+        </TableRow>
+
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="320dp"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Deseja enviar recibo?" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="ENVIAR RECIBO"
+        android:textSize="17dp"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:text="PULAR"
+        android:textSize="17dp"
+        android:textColor="#ffffff"
+        android:layout_marginTop="10dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

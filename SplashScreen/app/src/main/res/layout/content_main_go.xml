@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main_go"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="br.com.tutorialandroid.splashscreen.MainGoActivity"
+    tools:showIn="@layout/card_layout">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etOrigin"
+        android:hint="Enter origin address" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter destination address"
+        android:id="@+id/etDestination" />
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="80dp">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Find path"
+            android:id="@+id/btnFindPath" />
+        <ImageView
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/loc"/>
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0 km"
+            android:id="@+id/tvDistance" />
+
+        <ImageView
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:padding="5dp"
+            android:src="@drawable/time"/>
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0 min"
+            android:id="@+id/tvDuration" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/fragmento_mapa"
+        android:layout_width="fill_parent"
+        android:layout_height="400dp"
+        android:enabled="true"
+        android:clickable="true"
+        android:layout_marginTop="140dp"
+        android:apiKey="@string/google_maps_key">
+    </FrameLayout>
+
+
+</RelativeLayout>

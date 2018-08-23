@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="br.com.tutorialandroid.splashscreen.telaDeCorrida.MainTelaDeCorrida"
+    tools:showIn="@layout/activity_main_tela_de_corrida"
+    android:orientation="vertical">
+
+
+    <fragment
+        android:id="@+id/mapa"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:apiKey="@string/google_maps_key">
+    </fragment>
+
+    <!--<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp">
+
+        <ImageView
+            android:id="@+id/opcoes_taxista"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="325dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@mipmap/opcoestaxista" />
+
+    </LinearLayout>-->
+
+
+    <!--BOTÃO FINALIZAR CORRIDA-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="-60dp"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp">
+
+    <Button
+        android:text="Finalizar corrida"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:textSize="17dp"
+        android:textColor="#ffffff"
+        android:id="@+id/btn_finalizarc"
+        android:backgroundTint="@android:color/holo_red_light" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:padding="3dp"
+        android:layout_marginTop="-400dp">
+
+        <TextView
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:layout_width="70dp"
+            android:layout_marginLeft="5dp"
+            android:layout_height="1dp"
+            android:visibility="invisible"
+            android:id="@+id/valor_corrida" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:padding="3dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:visibility="invisible"
+            android:id="@+id/tv_coord_lat"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:visibility="invisible"
+            android:id="@+id/tv_coord_long"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:visibility="invisible"
+            android:id="@+id/img_cliente"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:visibility="invisible"
+            android:id="@+id/end_partida"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:visibility="invisible"
+            android:id="@+id/zeraNotif"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

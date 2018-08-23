@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="br.com.tutorialandroid.splashscreen.Historico.MainDadosCorrida"
+    tools:showIn="@layout/activity_main_dados_corrida">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/nome_c"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textSize="20dp"
+            android:background="#ff9800"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:text="cliente" />
+
+<!--    <TextView
+            android:id="@+id/caminho_img"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:visibility="invisible" />-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:padding="3dp"
+            android:background="#b8b65902">
+
+            <TextView
+                android:id="@+id/email_c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Email"
+                android:textColor="#ffffff"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/fone_cli"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Celular"
+                android:textColor="#ffffff"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/nasc_cli"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Nascimento"
+                android:textColor="#ffffff"
+                android:textSize="12dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/linha"
+                android:scaleType="fitCenter"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"/>
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:padding="3dp">
+
+        <LinearLayout
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="3dp"
+            android:background="#e1e1e1">
+
+            <TextView
+                android:id="@+id/data_corrida"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="data"
+                android:textColor="#000000"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/hora_corrida"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="hora"
+                android:textColor="#000000"
+                android:textSize="15dp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/valor_corrida"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="R$"
+            android:textColor="#007300"
+            android:textSize="19dp" />
+
+        <TextView
+            android:id="@+id/valor_corrida_reais"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="00.00"
+            android:textColor="#009100"
+            android:textSize="40dp" />
+
+    </LinearLayout>
+
+        <TextView
+            android:id="@+id/pagameno_forma"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="pagamento"
+            android:textColor="#000000"
+            android:textSize="15dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/linha"
+                android:scaleType="fitCenter"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:padding="3dp">
+
+            <TextView
+                android:id="@+id/origem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="ORIGEM"
+                android:textColor="#000000"
+                android:textSize="15dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="3dp">
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/ic_location_on_black_24dp" />
+
+                <TextView
+                    android:id="@+id/origem_corrida"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#d7f7ac"
+                    android:gravity="left"
+                    android:text="origem"
+                    android:textColor="#000000"
+                    android:textSize="13dp" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/destino"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="DESTINO"
+                android:textColor="#000000"
+                android:textSize="15dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="3dp">
+
+                <TextView
+                    android:id="@+id/destino_corrida"
+                    android:layout_width="290dp"
+                    android:layout_height="wrap_content"
+                    android:background="#d7f7ac"
+                    android:gravity="left"
+                    android:text="destino"
+                    android:textColor="#000000"
+                    android:textSize="13dp" />
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/ic_location_on_black_24dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/linha"
+                android:scaleType="fitCenter"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

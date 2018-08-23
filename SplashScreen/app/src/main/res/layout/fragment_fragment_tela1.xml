@@ -1,0 +1,149 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragmento_tela1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="br.com.tutorialandroid.splashscreen.FragmentTela1">
+
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_alignParentTop="true">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btniniciar"
+                android:gravity="center"
+                android:text="INICIAR"
+                android:onClick="iniciartaxi"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnpausa"
+                android:gravity="center"
+                android:text="PAUSAR"
+                android:onClick="pausartaxi"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp">
+
+
+            <Chronometer
+                android:id="@+id/chronometer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Taxímetro"
+                android:gravity="center"
+                android:textSize="30dp" />
+
+        </LinearLayout>-->
+
+        <!--=========================XML CRONOMETRO==============================-->
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="21dp">
+
+            <Button
+                android:id="@+id/btIniciar"
+                android:layout_width="85dp"
+                android:layout_height="wrap_content"
+                android:text="Iniciar"
+                android:background="@android:color/holo_green_light" />
+
+            <Button
+                android:id="@+id/btPausar"
+                android:layout_width="85dp"
+                android:layout_height="wrap_content"
+                android:text="Pausar"
+                android:background="@color/wallet_highlighted_text_holo_light" />
+
+            <Button
+                android:id="@+id/btResetar"
+                android:layout_width="85dp"
+                android:layout_height="wrap_content"
+                android:text="Resetar"
+                android:background="@android:color/holo_red_light" />
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:id="@+id/relativeLayout">
+
+
+        <!--<ImageView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            app:srcCompat="@drawable/taxinume"
+            android:id="@+id/imageView4"
+            android:layout_alignTop="@+id/relativeLayout" />-->
+
+        <TextView
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:id="@+id/valores"
+            android:layout_below="@+id/textView2"
+            android:layout_centerHorizontal="true" />
+
+        <Chronometer
+            android:id="@+id/chronometer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:format="%s"
+            android:text="Chronometer"
+            android:textSize="20dp"
+            android:textColor="@color/wallet_link_text_light"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="VALOR"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:id="@+id/textView2"
+            android:layout_below="@+id/chronometer"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="12dp" />
+
+
+        <!--=========================XML CRONOMETRO==============================-->
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</FrameLayout>

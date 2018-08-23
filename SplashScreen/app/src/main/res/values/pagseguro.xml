@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- we are using pagseguro's sandbox values here. -->
+    <!-- you can use your onw values and after tests, use the real values -->
+    <string name="pagseguro_vendor_email">renatocostary@gmail.com</string>
+    <string name="pagseguro_vendor_token">0351400AA54D4598BEBA4738C0665A41</string>
+    <string name="pagseguro_webservice_checkout_address" formatted="false">"https://ws.sandbox.pagseguro.uol.com.br/v2/checkout?email=%s&amp;token=%s"</string>
+    <string name="pagseguro_payment_page">"https://sandbox.pagseguro.uol.com.br/v2/checkout/payment.html?code=%s"</string>
+</resources>

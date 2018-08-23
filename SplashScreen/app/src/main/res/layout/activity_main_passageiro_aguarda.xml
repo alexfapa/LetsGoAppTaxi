@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="br.com.tutorialandroid.splashscreen.telaDeCorrida.MainPassageiroAguarda">
+
+    <include layout="@layout/content_main_passageiro_aguarda" />
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+
+        <!--XML ADICIONADOS-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-55dp"
+            android:orientation="horizontal"
+            android:padding="3dp">
+
+            <TextView
+                android:id="@+id/passageiro_aguarda"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Passageiro aguardando..."
+                android:textColor="#ffffff"
+                android:textSize="18dp" />
+
+        </LinearLayout>
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbardois"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:background="@android:color/holo_red_dark"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img_usu"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="-60dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/usuario_usu"
+            android:transitionName="cliente_image"
+            app:civ_border_color="#FF000000" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-50dp"
+            android:layout_marginLeft="75dp"
+            android:orientation="vertical"
+            android:padding="3dp">
+
+            <TextView
+                android:id="@+id/nome_cliente"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nome do Cliente"
+                android:textColor="#ffffff"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/email_cliente"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Email..."
+                android:textColor="#ffffff"
+                android:textSize="12dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="23dp"
+            android:orientation="vertical"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp">
+
+            <TextView
+               android:id="@+id/mensagem_cliente"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Mensagem do cliente"
+               android:textColor="#0010c1"
+               android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/localizacao_destino"
+                android:layout_width="310dp"
+                android:layout_height="wrap_content"
+                android:text="End. passageiro"
+                android:textColor="#ffffff"
+                android:textSize="15dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="-20dp"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp">
+
+            <ImageView
+                android:id="@+id/opcoes_taxista"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginLeft="325dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@mipmap/opcoestaxista" />
+
+        </LinearLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <!--<android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        app:srcCompat="@android:drawable/ic_dialog_email" />-->
+
+</android.support.design.widget.CoordinatorLayout>

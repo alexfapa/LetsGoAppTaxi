@@ -1,0 +1,110 @@
+<resources>
+    <string name="app_name">Lets GO</string>
+    <string name="title_activity_splashscreen">LETS GO</string>
+    <string name="title_activity_main2">LETS GO A</string>
+    <!--<string name="title_activity_main_map">LETS GO</string>-->
+    <string name="title_activity_main_termosdeuso">Termos de Uso LetsGO</string>
+    <string name="title_activity_main_ajuda">Ajuda</string>
+    <string name="title_activity_main_notification">Cliente chamando...</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_maps">Map</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main_go">MainGoActivity</string>
+    <string name="title_activity_main3tax">Main3taxActivity</string>
+
+
+    <string name="title">FICAR OCUPADO</string>
+    <string name="message">Deseja relamente ficar ocupado?</string>
+    <string name="title_activity_main_perfil">Perfil</string>
+    <string name="title_activity_main_WebService">WebService</string>
+    <string name="title_activity_main_feedback"></string>
+    <string name="title_activity_main_passageiro_aguarda"></string>
+
+    <string name="termosdeuso"></string>
+    <string name="tittle_activity_main_paypal">Pagamento efetuado com Sucesso</string>
+
+
+    <string name="hello_world">Hello world!</string>
+    <string name="perfil">Perfil</string>
+    <string name="login">Login</string>
+    <string name="senha">Senha</string>
+    <string name="email">Email</string>
+    <string name="ins">Inserir</string>
+    <string name="act">Atualizar</string>
+    <string name="obt">Buscar</string>
+    <string name="lis">Listar</string>
+
+
+    <!--Adicionado 03/02/2017-->
+    <string name="nome_app">Valor total da corrida</string>
+    <string name="checkout">Checkout</string>
+    <string name="add_to_cart">Add to Cart</string>
+    <string name="title_activity_main_scrolling">Meu Perfil Lets GO</string>
+    <string name="title_activity_main_login_php">LoginPHP</string>
+
+    <!--PAGSEGURO CODIGO AQUI-->
+    <string name="title_activity_pag_seguro">PagSeguro Demo</string>
+    <string name="pagseguro">PagSeguro</string>
+    <string name="waiting_for_answer">Aguardando resposta...</string>
+    <string name="transaction_cancelled">A transação foi cancelada com sucesso!</string>
+    <string name="transaction_succeded">A transação foi efetuada sucesso!</string>
+    <string name="transaction_error">A tentativa de compra falhou! Tente novamente!</string>
+    <string name="cancel_pagseguro">Deseja realmente cancelar?</string>
+    <string name="loading_1">Carregando.</string>
+    <string name="loading_2">Carregando..</string>
+    <string name="loading_3">Carregando...</string>
+
+
+    <string name="FCM_PREF">br.com.tutorialandroid.splashscreen.fcm_pref</string>
+    <string name="FCM_TOKEN">br.com.tutorialandroid.splashscreen.fcm_token</string>
+
+    <string name="msg_token_fmt" translatable="false">InstanceID Token: %s</string>
+
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="registration_instruction">Ainda não é cadastrado? pressione no botão abaixo.</string>
+    <string name="register_button">Cadastrar agora</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="welcome">WELCOME</string>
+    <string name="is_login">Login realizado com sucesso</string>
+    <string name="sign_up">Cadastrar</string>
+
+
+    <!--MAPAWEB-->
+    <string name="title_activity_last_location">LastLocationActivity</string>
+    <string name="title_activity_update_location">UpdateLocationActivity</string>
+    <string name="title_activity_address_location">AddressLocationActivity</string>
+    <string name="title_activity_tracking">TrackingActivity</string>
+
+    <string name="title_activity_scrolling_termosde_uso">Termos de Uso</string>
+    <string name="large_text">"Vip Táxi Sobral"</string>
+    <string name="title_activity_main_historico_de_corrida">Histórico de Corridas</string>
+    <string name="title_activity_main_gcm">MainActivityGCM</string>
+    <string name="title_activity_main_dados_corrida">Dados da Corrida</string>
+    <string name="title_activity_main_hora_de_trabalho">MainHoraDeTrabalho</string>
+    <string name="hora_disponivel">"Antes de iniciar suas atividades, é necessário que nos diga suas horas disponíveis para receber chamadas e logar no LetsGO!"</string>
+
+    <!--<style name="Theme.MyTheme" parent="Theme.AppCompat.NoActionBar">
+         colorPrimary is used for the default action bar background 
+        <item name="colorPrimary">@color/colorPrimary</item>-->
+
+    <!-- colorPrimaryDark is used for the status bar
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+
+    <!-- colorAccent is used as the default value for colorControlActivated,
+             which is used to tint widgets 
+        <item name="colorAccent">@color/colorAccent</item>-->
+
+    <!-- You can also set colorControlNormal, colorControlActivated
+             colorControlHighlight, and colorSwitchThumbNormal. 
+
+    </style>-->
+
+</resources>

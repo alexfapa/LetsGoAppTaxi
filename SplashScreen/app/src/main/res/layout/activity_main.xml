@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:background="@drawable/wallpaper_road"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"><!--android:background="#F8F8FF"-->
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--<android.support.design.widget.TextInputLayout android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">-->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <!--<ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/sombratable"
+                android:layout_marginTop="250dp"
+                android:id="@+id/imageView3" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/sombratable"
+                android:layout_marginTop="360dp"
+                android:id="@+id/imageView4" />-->
+
+            <!--<ImageView
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="150dp"
+                android:layout_centerHorizontal="true"
+                app:srcCompat="@drawable/fundosombra"
+                android:id="@+id/imageView2" /> -->
+
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="284dp"
+                android:layout_centerHorizontal="true"
+                app:srcCompat="@drawable/lineou"
+                android:id="@+id/imageView5" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="1">
+
+                <android.support.design.widget.TextInputLayout
+                    android:textColorHint="#fff"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="30dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/nome_usu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:drawableRight="@mipmap/email_usu"
+                    android:inputType="textEmailAddress"
+                    android:hint="Email"
+                    android:cursorVisible="true" />
+
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:textColorHint="#fff"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword"
+                    android:id="@+id/senha_usu"
+                    android:hint="Senha" />
+
+                </android.support.design.widget.TextInputLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <CheckBox
+                    android:id="@+id/saveLogin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Lembrar de mim"
+                    android:textColor="#ffffff"/>
+                </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:weightSum="1">
+
+                <Button
+                    android:id="@+id/bt_entrar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="cliqueEntrar"
+                    android:textColor="#ffff"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:text="ENTRAR"
+                    android:textSize="20dp"
+                    android:background="?android:attr/colorPressedHighlight"
+                    style="@style/RtlOverlay.Widget.AppCompat.ActionBar.TitleItem" />
+
+                <Button
+                    android:layout_width="200dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="30dp"
+                    android:text="Esqueceu a senha?"
+                    android:layout_gravity="center"
+                    android:id="@+id/btn_esqueceu"
+                    android:textColor="#fff"
+                    android:textStyle="bold"
+                    android:background="@color/wallet_highlighted_text_holo_light" />
+
+                <Button
+                    android:text="CADASTRE-SE"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textColor="#ffff"
+                    android:textStyle="bold"
+                    android:layout_marginTop="60dp"
+                    android:id="@+id/txtcadastro"
+                    android:textSize="20dp"
+                    android:background="?android:attr/colorControlActivated" />
+            </LinearLayout>
+
+              <!--  <ImageButton
+                    android:layout_width="105dp"
+                    android:layout_height="150dp"
+                    app:srcCompat="@drawable/image"
+                    android:id="@+id/imageButton"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="240dp"
+                    android:background="@android:color/transparent"
+                    android:layout_weight="0.06" />
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="35dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:text="Let's GO!"
+                    android:textStyle="bold"
+                    android:textColor="#ffff"
+                    android:textSize="15dp"
+                    android:id="@+id/data"/>-->
+
+            </LinearLayout>
+
+            <ProgressBar
+                style="@style/Base.Widget.AppCompat.ProgressBar"
+                android:id="@+id/progress"
+                android:visibility="invisible"
+                android:layout_marginTop="450dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:indeterminate="true" />
+
+        </RelativeLayout>
+    <!--</android.support.design.widget.TextInputLayout>-->
+    </ScrollView>
+</LinearLayout>

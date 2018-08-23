@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main_ajuda"
+    android:background="#ffffff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="br.com.tutorialandroid.splashscreen.MainAjuda">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="Bem Vindo ao sistema de ajuda LET'S GO"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textSize="17dp"
+                android:layout_marginTop="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView5" />
+
+            <TextView
+                android:text="Através deste sistema você poderá contatar a central LET'S GO, para informações sobre dificuldades, problemas em geral sobre manuseio do nosso APP."
+                android:gravity="center"
+                android:textColor="#ba6f00"
+                android:layout_marginTop="30dp"
+                android:textSize="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView1" />
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="150dp">
+
+
+                <ImageView
+                    app:srcCompat="@drawable/email"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_centerHorizontal="true"
+                    android:scaleType="fitCenter"
+                    android:id="@+id/imageView2" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ajudaletsgo@gmail.com"
+                    android:textColor="#1700e8"
+                    android:textSize="18dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="80dp"
+                    android:id="@+id/ajuda_email"/>
+
+            </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="70dp">
+
+            <ImageView
+                app:srcCompat="@drawable/cell"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="40dp"
+                android:layout_centerHorizontal="true"
+                android:scaleType="fitCenter"
+                android:id="@+id/imageView1" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="+55 88 99999-9999"
+                android:textColor="#1700e8"
+                android:textSize="18dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:id="@+id/ajuda_cell"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="70dp">
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:text="+55 88"
+                android:textColor="#1700e8"
+                android:textSize="18dp"
+                android:layout_marginLeft="120dp"
+                android:id="@+id/codigo_cell"/>
+
+            <EditText
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:hint="99999-9999"
+                android:layout_marginLeft="-15dp"
+                android:layout_marginTop="-24dp"
+                android:textColor="#005dc1"
+                android:layout_gravity="center"
+                android:inputType="number"
+                android:id="@+id/ajuda_numero" />
+
+            </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_marginTop="-47dp">
+            <Button
+                android:text="Ligar"
+                android:textColor="#ffffff"
+                android:layout_marginLeft="120dp"
+                android:layout_width="160dp"
+                android:layout_height="7dp"
+                android:id="@+id/botao_ligar"
+                android:layout_weight="1"
+                android:background="@android:color/holo_green_dark" />
+        </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Atendemos somente em horário comercial"
+            android:textColor="#c40000"
+            android:textSize="15dp"
+            android:gravity="center"
+            android:layout_marginTop="500dp"/>
+
+    </RelativeLayout>
+</RelativeLayout>

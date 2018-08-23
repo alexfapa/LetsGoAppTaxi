@@ -1,0 +1,163 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".mapacomweb.TrackingActivity">
+
+    <fragment
+        android:id="@+id/frag_maps"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:apiKey="@string/google_maps_key">
+
+    </fragment>
+
+<!--
+    <RelativeLayout
+        android:id="@+id/rl_maps"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <fragment
+            android:id="@+id/frag_maps"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:apiKey="@string/google_maps_key">
+        </fragment>
+    </RelativeLayout>
+      -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="-50dp">
+
+        <Button
+            android:text="Start"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginRight="5dp"
+            android:onClick="startTracking"/>
+
+        <Button
+            android:text="Stop"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="stopTracking"/>
+    </LinearLayout>
+
+    <!--
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+
+        android:layout_marginTop="122dp"-->
+
+
+<!--
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="500dp"
+        android:id="@+id/botao_ocupado">
+
+        <Button
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:text="FICAR OCUPADO"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:textColor="#ffffff"
+            android:id="@+id/btn_ficarocupado"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="@android:color/holo_red_dark" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/botao_lo">
+
+        <TextView
+            android:id="@+id/tv_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:layout_gravity="center"
+            android:text=""
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/tv_nome"
+            android:visibility="invisible"
+            android:layout_marginTop="10dp"
+            android:textSize="18dp"
+            android:layout_marginLeft="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tv_email"
+            android:visibility="invisible"
+            android:textSize="18dp"
+            android:layout_marginLeft="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tv_id"
+            android:visibility="invisible"
+            android:textSize="18dp"
+            android:layout_marginLeft="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <ProgressBar
+        style="@style/Base.Widget.AppCompat.ProgressBar"
+        android:id="@+id/progresso_status"
+        android:visibility="invisible"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:indeterminate="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id = "@+id/switchStatus"
+            android:layout_width = "wrap_content"
+            android:layout_height = "wrap_content"
+            android:layout_alignParentLeft = "true"
+            android:layout_below = "@+id/mySwitch"
+            android:text = "Livre / Ocupado"
+            android:textStyle="bold"
+            android:textColor="#0ea800"
+            android:textAppearance = "?android:attr/textAppearanceMedium" />
+
+        <Switch
+            android:id="@+id/mySwitch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+    </LinearLayout>
+-->
+</LinearLayout>

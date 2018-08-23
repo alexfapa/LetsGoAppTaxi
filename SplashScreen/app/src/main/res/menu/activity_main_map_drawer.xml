@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <!--<item
+            android:id="@+id/nav_escolha"
+            android:icon="@drawable/rotina"
+            android:title="Rotina" />-->
+        <item
+            android:id="@+id/nav_providerfragmentv2"
+            android:icon="@drawable/ic_my_location_black_24dp"
+            android:title="Minha Localização" />
+        <item
+            android:id="@+id/nav_corridas"
+            android:icon="@drawable/ultima_corrida"
+            android:title="Ultimas corridas" />
+
+        <item android:title="Opções">
+            <menu>
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Enviar FeedBack" />
+
+            <!--<item
+                android:id="@+id/nav_ferramentas"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Ferramentas" />-->
+
+            <item
+                android:id="@+id/nav_perfil"
+                android:icon="@drawable/perfil_p"
+                android:title="Perfil" />
+
+            <item
+                android:id="@+id/nav_ajuda"
+                android:icon="@drawable/ajuda"
+                android:title="Ajuda" />
+
+            <item
+                android:id="@+id/nav_sair"
+                android:icon="@drawable/sair_sair"
+                android:title="Sair" />
+
+            </menu>
+        </item>
+    </group>
+
+    <item android:title="Termos de uso">
+        <menu>
+
+            <item
+                android:id="@+id/nav_termosdeuso"
+                android:icon="@drawable/termos"
+                android:title="Termos de uso" />
+
+            <!--
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+                -->
+        </menu>
+    </item>
+
+</menu>

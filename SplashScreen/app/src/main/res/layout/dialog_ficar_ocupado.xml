@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+
+            <Button
+                android:text="FICAR OCUPADO"
+                android:textColor="#ffffff"
+                android:textSize="25dp"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_ocupado"
+                android:background="@android:color/holo_red_light" />
+
+            <TextView
+                android:text="Taxista, ao clique do botão FICAR OCUPADO, você não receberá nenhum tipo de chamada de clientes."
+                android:gravity="center"
+                android:textColor="#000000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:id="@+id/msg_ocupado" />
+
+           <!-- <Button
+                android:text="PASSAGEIRO A BORDO"
+                android:textColor="#ffffff"
+                android:textSize="25dp"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_passageiroabordo"
+                android:background="@android:color/holo_green_light" />-->
+
+          <!--  <Button
+                android:text="CANCELAR"
+                android:textColor="#ffffff"
+                android:textSize="25dp"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_cancelar"
+                android:background="@android:color/holo_orange_dark" />-->
+
+        </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,812 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main_termosde_uso"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.com.tutorialandroid.splashscreen.MainTermosdeUso">
+    <!--android:paddingBottom="@dimen/activity_vertical_margin"-->
+<!--
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TERMOS DE USO"
+                android:textSize="17dp"
+                android:textColor="#000000"
+                android:gravity="center"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="25dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Vip Táxi Sobral" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Termos de uso acordados entre a Vip Táxi Sobral e o Taxista
+Termos e Condições de Uso entre a Vip Táxi Sobral e o Passageiro
+Termos de uso acordados entre a Vip Táxi Sobral e o Taxista"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Este instrumento, daqui em diante chamado “TERMOS DE USO”, servem ao mesmo tempo como:"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="(I) o Contrato de Licenciamento de Uso de Software entre a Vip Táxi Sobral, com sede na cidade de Sobral, Estado do Ceará, na Rua 8, COHAB2, nº 230, Sinhá Sabóia, CEP 62050-740, e inscrita no CNPJ/MF sob o nº. 23.533.238/0001-40, e o motorista de táxi devidamente regularizado para o exercício da profissão, daqui em diante chamado “TAXISTA”, que decida utilizar o software desenvolvido pela Vip Táxi Sobral,"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="(II) os Termos de Uso para a utilização desse software e"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="(III) a Política de Privacidade, Armazenamento e Segurança de Dados da Vip Táxi Sobral."
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Pelos TERMOS DE USO são estabelecidas as condições gerais pelas quais o TAXISTA se obriga ao utilizar o software a ele licenciado pela Vip Táxi Sobral, o qual consiste nas funcionalidades oferecidas pelo conjunto da plataforma tecnológica da Vip Táxi Sobral, pelo aplicativo da Let’s Go para smartphones e tablets, daqui em diante chamado “APLICATIVO”."
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Os TERMOS DE USO são o consenso integral e plenamente vinculante entre a Vip Táxi Sobral e o TAXISTA, sendo o único documento a reger sua relação contratual, substituindo todos e quaisquer acordos e entendimentos, verbais ou escritos, mantidos anteriormente. A aceitação dos TERMOS DE USO é obrigatória para a utilização dos serviços prestados pela Vip Táxi Sobral e a mera utilização do APLICATIVO implica a imediata concordância com todas as suas cláusulas, políticas e princípios."
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Os TERMOS DE USO são mostrados ao TAXISTA e por ele necessariamente aceitos quando do início do processo de instalação, cadastro e utilização do APLICATIVO, e dada sua publicidade não permitem que o TAXISTA alegue desconhecimento das regras e obrigações criadas por meio deles.
+TODA E QUALQUER PESSOA, FÍSICA OU JURÍDICA, QUE SE TORNAR USUÁRIA DO APLICATIVO DA Vip Táxi Sobral (App: Let’s Go) DECLARA ACEITAR ESTES TERMOS DE USO.
+DEFINIÇÕES"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="1.1. Let’s Go: é a Vip Táxi Sobral, proprietária e licenciante do APLICATIVO. A Vip Táxi Sobral presta um serviço de licenciamento de uso de software."
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="1.2. TAXISTA: é o usuário licenciado, motorista de táxi devidamente regularizado para o exercício da profissão conforme a legislação aplicável em sua região de atuação, que se cadastra junto à Vip Táxi Sobral (App: Let’s Go) para obter, por meio do APLICATIVO, solicitações de corrida de táxi e prestar, mediante contrato próprio, serviço de transporte individual ao PASSAGEIRO."
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="1.3. PASSAGEIRO: é o usuário cadastrado junto à Vip Táxi Sobral (App: Let’s Go) para solicitar, por meio do APLICATIVO, serviço de transporte individual a ser prestado pelo TAXISTA."
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="1.4. CLIENTE CORPORATIVO: é a empresa que se cadastra junto à Vip Táxi Sobral (App: Let’s Go), celebrando contrato para ter acesso à solução corporativa desenvolvida pela Vip Táxi Sobral, que conecta os sócios, funcionários e colaboradores credenciados pela empresa ao TAXISTA."
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="1.5. PASSAGEIRO CREDENCIADO: é o sócio, funcionário ou colaborador cadastrado e credenciado pelo CLIENTE CORPORATIVO para utilizar a solução corporativa da Vip Táxi Sobral (App: Let’s Go)."
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="1.6. USUÁRIO: são o TAXISTA, o PASSAGEIRO e o PASSAGEIRO CREDENCIADO."
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="1.7. APLICATIVO: é o conjunto de funcionalidades disponíveis ao TAXISTA por meio da plataforma tecnológica da Vip Táxi Sobral, pelo aplicativo da Let’s Go para smartphones e tablets, que permite a conexão entre TAXISTA e PASSAGEIRO para que o primeiro preste serviço de transporte individual ao segundo."
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="1.8. Let’s Go: é a categoria comum de táxi a que tem acesso o PASSAGEIRO por meio do APLICATIVO, prestada pelo TAXISTA devidamente cadastrado."
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="1.9. CHARGEBACK: é o procedimento por meio do qual o PASSAGEIRO contata a operadora de seu cartão de crédito para contestar uma transação realizada, alegando não ter autorizado o pagamento do serviço de transporte individual prestado pelo TAXISTA.
+DAS CATEGORIAS DE TÁXI E DOS SERVIÇOS PRESTADOS PELO TAXISTA AO PASSAGEIRO"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="2.1. O APLICATIVO permite ao PASSAGEIRO a conexão com o TAXISTA que preste o serviço de táxi (App: Let’s Go)."
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="2.1.1. O serviço de transporte individual é prestado diretamente pelo TAXISTA ao PASSAGEIRO, sem que haja relação contratual entre este último e a Vip Táxi Sobral (App: Let’s Go)."
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="2.1.2. O TAXISTA reconhece e aceita que a única relação que existe entre ele e a Vip Táxi Sobral (App: Let’s Go)  é aquela regida por estes TERMOS DE USO, que consiste em contrato de licenciamento de uso de software."
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="2.2. No aplicativo Let’s Go, o valor a ser pago pelo PASSAGEIRO ao TAXISTA é calculado com base na legislação aplicável em sua região de atuação."
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="2.2.1. Nos municípios com mais de 50.000 (cinquenta mil) habitantes, o valor é calculado obrigatoriamente por meio de taxímetro devidamente ajustado e regularizado, nos termos do artigo 8º da Lei 12.468 de 26 de agosto de 2011. Entrando em vigor assim que for instalado no município de Sobral."
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="2.2.2. Em todos os municípios em que a legislação exige a utilização de taxímetro, é proibido ao TAXISTA que tenha aceitado corrida por meio do APLICATIVO acordar com o PASSAGEIRO pagamento de valor diverso daquele indicado no taxímetro."
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="2.3. No Aplicativo Let’s Go, o valor a ser pago pelo PASSAGEIRO ao TAXISTA é calculado pelo OTIMIZADOR, deixando o taxista em aberto para negociação pertinente.
+DOS SERVIÇOS PRESTADOS PELA Vip Táxi Sobral (App: Let’s Go) AO TAXISTA, DA SOLUÇÃO PARA O PASSAGEIRO INDIVIDUAL E DA SOLUÇÃO PARA O PASSAGEIRO CORPORATIVO
+"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="3.1. Por meio destes TERMOS DE USO, a Vip Táxi Sobral (App: Let’s Go)  licencia onerosamente, nos termos das cláusulas 4, 7, 8 e 9 abaixo, o uso do APLICATIVO ao TAXISTA, em caráter não-exclusivo.
+
+                3.2. O APLICATIVO objeto da licença em questão funciona aproximando o TAXISTA licenciado ao PASSAGEIRO e ao PASSAGEIRO CREDENCIADO, para que o TAXISTA possa oferecer a estes últimos seus serviços
+
+                3.3. A Vip Táxi Sobral (App:Let’s Go) é responsável por licenciar ao TAXISTA o uso do APLICATIVO, bem como mantê-lo em funcionamento, nos termos das cláusulas 6 e 16 abaixo.
+
+                3.4. Para utilizar o APLICATIVO, o TAXISTA deverá aderir a estes TERMOS DE USO, aceitando as regras por eles estabelecidas, além de realizar e manter atualizado seu cadastro e sua habilitação junto à Vip Táxi Sobral (App:Let’s Go).
+
+                3.5. Por meio do APLICATIVO, O TAXISTA receberá chamadas de PASSAGEIROS próximos à sua localização e possuirá prazo determinado para aceitar a chamada. A Vip Táxi Sobral (App: Let’s Go) enviará cada chamada a mais de um TAXISTA próximo ao PASSAGEIRO. Dentre os TAXISTAS que aceitarem a chamada dentro do prazo, ganhará a corrida aquele que se encontrar mais próximo ao PASSAGEIRO, ficando obrigado a deslocar-se até o local em que se encontrar o PASSAGEIRO e realizar regularmente a respectiva corrida.
+
+                3.6. O TAXISTA receberá pelo APLICATIVO corridas oriundas tanto de PASSAGEIRO quanto de PASSAGEIRO CREDENCIADO, devendo realizá-las da mesma maneira.
+
+                3.6.1. O pagamento do PASSAGEIRO e do PASSAGEIRO CREDENCIADO ao TAXISTA deverá ser feito sempre por meio do APLICATIVO.
+                DA LICENÇA DE USO DE SOFTWARE
+
+                4.1. Estes TERMOS DE USO criam exclusivamente, entre a Vip Táxi Sobral (App:Let’s Go) e o TAXISTA, uma relação contratual de licenciamento de uso de software, em que a Vip Táxi Sobral (App: Let’s Go) é a licenciante do APLICATIVO e o TAXISTA o licenciado para utilizá-lo.
+
+                4.2. A licença de uso do APLICATIVO feita pela Vip Táxi Sobral ao TAXISTA é onerosa.
+
+                4.2.1. Por meio da licença, o TAXISTA tem acesso à ampla base de PASSAGEIROS e PASSAGEIROS CREDENCIADOS da Vip Táxi Sobral (App:Let’s Go), podendo receber pedidos de corrida que a ele não estariam disponíveis na falta do APLICATIVO.
+
+                4.2.2. Como remuneração pela licença, a Vip Táxi Sobral (App: Let’s Go) cobrará do TAXISTA um valor por cada corrida aceita, de acordo com a categoria do serviço.
+
+                4.2.2.1. No aplicativo Let’s Go, a Vip Táxi Sobral cobrará do TAXISTA o valor de 13% (treze por cento) por corrida aceita, independentemente do valor total da corrida paga pelo PASSAGEIRO.
+
+                4.2.3. A Vip Táxi Sobral (App: Let’s Go) poderá alterar os valores cobrados do TAXISTA a título de remuneração pela licença de uso de software a qualquer tempo, mediante mudança da redação destes TERMOS DE USO.
+
+                4.2.3.1. A Vip Táxi Sobral (App: Let’s Go) deverá informar a referida alteração ao TAXISTA, utilizando para isso meios adequados, eficientes e proporcionais.
+
+                4.3. A licença de uso do APLICATIVO é feita nos limites e segundo as condições destes TERMOS DE USO, podendo ser o contrato suspenso ou resilido, de acordo com as provisões aqui estabelecidas.
+
+                4.3.1. A Vip Táxi Sobral (App: Let’s Go) concede ao TAXISTA uma licença limitada, pessoal, não exclusiva, não transferível, não comercial e plenamente revogável, para utilizar o APLICATIVO em seu smartphone ou tablet em conformidade com as condições previstas nestes TERMOS DE USO.
+
+                4.3.2. A Vip Táxi Sobral (App: Let’s Go) não se responsabiliza por danos sofridos pelo TAXISTA em razão de cópia, transferência, distribuição ou qualquer outra forma de utilização de conteúdo protegido disponibilizado no APLICATIVO.
+
+                4.4. A Vip Táxi Sobral (App: Let’s Go) reserva a si todos os direitos ao APLICATIVO não expressamente concedidos aqui.
+                DA INEXISTÊNCIA DE VÍNCULOS ENTRE A Vip Táxi Sobral e o TAXISTA
+
+                5.1. O TAXISTA reconhece que estes TERMOS DE USO e o seu cadastro junto à Vip Táxi Sobral (App: Let’s Go)  não estabelecem qualquer tipo de vínculo societário, associativo ou cooperativo.
+
+                5.2. O TAXISTA reconhece que estes TERMOS DE USO e o seu cadastro junto à Vip Táxi Sobral (App: Let’s Go) não estabelecem qualquer tipo de vínculo empregatício com a Vip Táxi Sobral, direta ou indiretamente.
+
+                5.2.1. O TAXISTA reconhece que o APLICATIVO LET’S GO é uma ferramenta auxiliar à prestação dos serviços regularmente executada pelo TAXISTA, não sendo essencial para o desenvolvimento de suas atividades econômicas.
+                DAS RESPONSABILIDADES
+
+                6.1. Quaisquer perdas, prejuízos ou danos decorrentes ou relativos aos serviços prestados pelo TAXISTA são de responsabilidade exclusiva do TAXISTA, do PASSAGEIRO ou do PASSAGEIRO CREDENCIADO, conforme o caso.
+
+                6.2. O USUÁRIO reconhece que a Vip Táxi Sobral (App: Let’s Go) é isenta de qualquer dano ou prejuízo ao qual não tiver dado causa direta.
+
+                6.2.1. A Vip Táxi Sobral (App: Let’s Go) será ressarcida direta ou indiretamente, de forma regressiva, pelo USUÁRIO que der causa ao dano ou prejuízo.
+
+                6.3. O USUÁRIO reconhece que:"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="A Vip Táxi Sobral (App: Let’s Go) não realiza processo seletivo prévio de taxistas;
+
+                A Vip Táxi Sobral (App: Let’s Go) não fiscaliza as atividades ou a prestação dos serviços realizadas pelo TAXISTA;
+
+                A Vip Táxi Sobral (App: Let’s Go) não verifica as condições do veículo que será utilizado pelo TAXISTA, exceto se expressamente exigido pela legislação aplicável à sua região de atuação;
+
+                A Vip Táxi Sobral (App: Let’s Go) não está obrigada a realizar qualquer tipo de seleção de PASSAGEIRO ou de PASSAGEIRO CREDENCIADO, nem a utilizar qualquer filtro, crivo, regulação ou controle dos USUÁRIOS, exceto pela conferência dos documentos eventualmente exigidos para o cadastro, embora possa implementar, a seu critério, procedimentos para a averiguação de fraudes praticadas por USUÁRIOS;
+
+                6.4. A Vip Táxi Sobral (App: Let’s Go) também não será responsabilizada:
+
+                Pelos eventuais erros e inconsistências das informações oriundas de terceiros relativas ao geoposicionamento via sistema GPS e aos mapas integrados ao APLICATIVO;
+                Pelo uso inadequado do APLICATIVO por qualquer USUÁRIO, nem pelos problemas, danos ou prejuízos dele decorrentes;
+                Pelo atraso, cancelamento, falha ou por quaisquer problemas de comunicação entre TAXISTA e PASSAGEIRO ou PASSAGEIRO CREDENCIADO;
+                Pela não-aceitação de cadastramento do TAXISTA junto a meios de pagamento administrados por terceiros;
+                Pela participação do TAXISTA ou de qualquer outro USUÁRIO em esquemas de fraude ou burla a estes TERMOS DE USO;
+                Pelas condutas abusivas ou dolosas por parte do TAXISTA ou de qualquer outro USUÁRIO que gerem ou possam gerar danos ou prejuízos, financeiros ou não, à Vip Táxi Sobral (App: Let’s Go) ou a terceiros.
+
+                6.5. Sem prejuízo de outras obrigações decorrentes destes TERMOS DE USO, o TAXISTA obriga-se a:
+
+                Responder pelo uso incorreto, indevido ou fraudulento do APLICATIVO;
+                Possuir e manter em funcionamento regular os equipamentos técnicos e operacionais necessários para a utilização do APLICATIVO e para a prestação de serviços realizada pelo TAXISTA;
+                Arcar com todas as despesas, custos, taxas, impostos e contribuições referentes à manutenção e operação do veículo utilizado;
+                Obedecer a todas as exigências legais e regulatórias referentes aos serviços de transporte individual de passageiros por meio de táxi, incluindo as leis, regulamentos e demais normas de trânsito aplicáveis em âmbito federal, estadual e municipal;
+                Não discriminar ou selecionar, por nenhum motivo, PASSAGEIRO ou PASSAGEIRO CREDENCIADO;
+                Se responsabilizar pelo uso de sua própria máquina de cartão de crédito e/ou débito e pelos seus respectivos recebimentos.
+
+                6.6. Sem prejuízo de outras obrigações decorrentes destes TERMOS DE USO, a Vip Táxi Sobral (App: Let’s Go) obriga-se a:"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Manter o licenciamento do APLICATIVO ao TAXISTA, ressalvadas as hipóteses previstas por estes TERMOS DE USO;
+
+Manter em funcionamento o APLICATIVO, na forma destes TERMOS DE USO;
+
+Tornar públicas, por canais adequados, eficientes e proporcionais quaisquer alterações relevantes nestes TERMOS DE USO;
+
+Realizar os repasses ao TAXISTA relativos aos valores de corridas pagas pelo próprio APLICATIVO;
+
+Não se apropriar de quaisquer valores do TAXISTA que não os devidos à Vip Táxi Sobral (App: Let’s Go) por força destes TERMOS DE USO;
+
+Envidar os melhores esforços para evitar fraudes e aumentar a segurança dos dados pessoais do TAXISTA.
+
+Manter em funcionamento Central de Atendimento telefônico ao TAXISTA, de segunda a sexta das 9h às 20h.
+
+DO PAGAMENTO DO PASSAGEIRO E DO PASSAGEIRO CREDENCIADO AO TAXISTA
+
+7.1. O TAXISTA deverá informar e manter atualizados, no seu cadastro junto à Vip Táxi Sobral (App: Let’s Go), os meios por ele admitidos para o pagamento de corridas pelo PASSAGEIRO.
+
+7.1.1. No Let’s Go, o pagamento será feito por meio:
+
+Do próprio APLICATIVO, em sistema eletrônico de pagamentos mantido por instituições de pagamento em parceria com a Vip Táxi Sobral, sendo o repasse desses valores feito pela Vip Táxi Sobral ao TAXISTA nos termos da cláusula 8 abaixo.
+
+7.2. A Vip Táxi Sobral (App: Let’s Go) não será responsabilizada pelos pagamentos realizados diretamente pelo PASSAGEIRO ao TAXISTA por meio de moeda corrente ou de cartão de crédito ou débito diretamente na máquina de cartão do TAXISTA. Vip Táxi Sobral (App: Let’s Go) se responsabilizará pelos pagamentos realizados pelo próprio APLICATIVO.
+
+7.3. O TAXISTA receberá o pagamento de corridas feitas por PASSAGEIRO CREDENCIADO exclusivamente por meio do próprio APLICATIVO, conforme sistema de vouchers acordado entre a Vip Táxi Sobral (App: Let’s Go) e o CLIENTE CORPORATIVO.
+DA REMUNERAÇÃO DA Vip Táxi Sobral (App: Let’s Go) PELO LICENCIAMENTO DO USO DO SOFTWARE E DO REPASSE DA Vip Táxi Sobral AO TAXISTA NOS PAGAMENTOS FEITOS PELO APLICATIVO
+
+8.1. A remuneração da Vip Táxi Sobral (App: Let’s Go) pela licença de uso de software será devida pelo TAXISTA nos termos da cláusula 4 acima.
+
+8.1.1. A remuneração da Vip Táxi Sobral (App: Let’s Go) será cobrada quando do repasse ao TAXISTA do valor das corridas por ele devidamente realizadas que tenham sido pagas pelo próprio APLICATIVO.
+
+8.1.2. O valor do repasse feito pela Vip Táxi Sobral (App: Let’s Go) ao TAXISTA será equivalente ao valor total das corridas pagas pelo próprio APLICATIVO, conforme a cláusula 4 acima, a título de remuneração pela licença de uso de software.
+
+8.2. A Vip Táxi Sobral (App: Let’s Go) realizará o repasse dos valores devidos pelo PASSAGEIRO e pelo PASSAGEIRO CREDENCIADO ao TAXISTA por corridas pelo próprio APLICATIVO, realizados os devidos descontos, por meio de depósito em conta credenciada.
+
+8.3. A Vip Táxi Sobral (App: Let’s Go) não será responsabilizada pela falta ou atraso do repasse em virtude de:
+
+Quaisquer problemas na conta a ele associada que não tenham sido diretamente causados pela Vip Táxi Sobral (App: Let’s Go);
+
+Falhas no sistema de pagamento eletrônico disponibilizado por terceiros;
+
+Caso fortuito ou força maior;
+
+Quaisquer problemas decorrentes de ação ou omissão do TAXISTA, incluindo, mas não somente, as hipóteses de divergência entre o valor estimado do trajeto e o valor cobrado ou de corrida sem registro de trajeto.
+
+Necessidade de análise por indício de conduta fraudulenta, nos termos da cláusula 15.4.2 abaixo.
+
+8.4. O TAXISTA reconhece que:
+
+Para validar a corrida, deve utilizar os comandos “passageiro a bordo”, no momento em que o PASSAGEIRO ou PASSAGEIRO CREDENCIADO entrar em seu veículo e “passageiro entregue”, no momento em que o PASSAGEIRO ou PASSAGEIRO CREDENCIADO sair do veículo. Caso isso não ocorra, a Vip Táxi Sobral (App: Let’s Go) se reserva ao direito de analisar a corrida, o que poderá acarretar na postergação do repasse do valor a ela referente até a conclusão da análise. Caso a corrida não tenha sido validamente iniciada e finalizada, a Vip Táxi Sobral (App: Let’s Go) se reserva ao direito de atrasar ou não realizar o repasse, a fim de evitar fraudes;
+
+O valor a ser cobrado do PASSAGEIRO ou do PASSAGEIRO CREDENCIADO pela corrida deverá ser aquele que consta do taxímetro (Tabela da prefeitura) ou do OTIMIZADOR, acrescido apenas, quando exigido, de valores referentes a pedágio ou taxa intermunicipal, sendo vedado acordo diverso com o PASSAGEIRO ou PASSAGEIRO CREDENCIADO;
+
+O pagamento deverá, na solução para o passageiro individual, ser sempre feito pelo meio previamente escolhido pelo PASSAGEIRO quando da chamada do táxi pelo APLICATIVO e, na solução corporativa, ser feito pelo próprio APLICATIVO;
+
+O PASSAGEIRO e o PASSAGEIRO CREDENCIADO são os únicos devedores do pagamento pelo serviço prestado pelo TAXISTA.
+
+8.5. O TAXISTA se compromete a aceitar os termos de uso das empresas especializadas em serviços financeiros que ofereçam o sistema eletrônico de pagamentos pelo próprio APLICATIVO em parceria com a Vip Táxi Sobral (App: Let’s Go).
+
+8.6. A Vip Táxi Sobral (App: Let’s Go) se compromete a não se apropriar de quaisquer valores de titularidade do TAXISTA aos quais não faça jus por estes TERMOS DE USO.
+DAS PROMOÇÕES, DOS DESCONTOS E DOS VOUCHERS
+
+9.1. A Vip Táxi Sobral (App: Let’s Go) poderá, através de regulamento específico de promoções e ou ações de marketing, sozinha ou em parceria com outras empresas e instituições, e a seu livre e exclusivo critério, oferecer vouchers e descontos ao PASSAGEIRO ou ao PASSAGEIRO CREDENCIADO cadastrado no APLICATIVO.
+
+9.1.1. Os vouchers e descontos serão oferecidos e geridos pelo próprio APLICATIVO, não sendo o TAXISTA prejudicado ou onerado de qualquer forma e devendo, portanto, realizar as respectivas corridas normalmente.
+
+9.2. É vedado ao TAXISTA utilizar promoções e cupons de desconto ou vouchers em conluio com qualquer outro USUÁRIO ou com terceiros para obter vantagens indevidas ou fraudar o sistema de repasses da Vip Táxi Sobral (App: Let’s Go).
+
+9.2.1. O TAXISTA que infringir essa cláusula poderá ter seu contrato de licença de uso de software suspenso ou resilido, além de negados seus repasses e pagamentos, nos termos das cláusulas 14 e 15 abaixo.
+
+9.3. A Vip Táxi Sobral (App: Let’s Go) poderá disponibilizar, por meio do APLICATIVO, opção de corridas com desconto, à qual o TAXISTA poderá ou não aderir, também por meio do APLICATIVO.
+
+9.3.1. Ao aderir à opção de corridas com desconto, o TAXISTA poderá atender o PASSAGEIRO ou PASSAGEIRO CREDENCIADO que as solicite, sendo que o pagamento será realizado apenas pelo próprio APLICATIVO.
+
+9.3.2. O TAXISTA aceita que, nessas corridas, o valor final a ser pago pelo PASSAGEIRO ou PASSAGEIRO CREDENCIADO será calculado com base no valor da corrida indicado pelo taxímetro virtual do APLICATIVO e não terá a adição de quaisquer taxas intermunicipais cuja cobrança seja eventualmente facultada.
+
+9.3.3. O TAXISTA aceita ainda que, em razão de eventuais imperfeições sistêmicas e disparidades no sistema de geoposicionamento global disponibilizado por empresas parceiras da Vip Táxi Sobral (App: Let’s Go) e integrado ao APLICATIVO, o valor indicado no taxímetro virtual pode ser levemente diferente do valor indicado no taxímetro físico (tabela) do TAXISTA.
+
+9.4. A Vip Táxi Sobral (App: Let’s Go) poderá disponibilizar, ainda, promoções para promover o uso do APLICATIVO que incluam novas funcionalidades no software.
+
+9.4.1. A Vip Táxi Sobral (App: Let’s Go) poderá estabelecer, por exemplo, funcionalidade por meio da qual PASSAGEIROS do sexo feminino poderão solicitar TAXISTAS exclusivamente do sexo feminino (caso tenha no sistema), de modo a promover seu conforto e segurança.
+DO CADASTRO DO TAXISTA NO APLICATIVO
+"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="10.1. Para utilizar o APLICATIVO e se conectar com o PASSAGEIRO ou PASSAGEIRO CREDENCIADO no Let’s Go, o TAXISTA deverá efetuar seu cadastro junto à Vip Táxi Sobral (App: Let’s Go) na referida categoria, apresentando à Vip Táxi Sobral (App: Let’s Go) as seguintes informações e documentos válidos:
+
+                Registro municipal válido outorgando-lhe o direito para exercer a profissão de motorista de táxi;
+                Carteira Nacional de Habilitação (CNH) na categoria apropriada;
+                Foto de identificação;
+                Cédula de identidade RG;
+                Cadastro de Pessoa Física (CPF);
+                Número de telefone;
+                Comprovante de residência válido e com no máximo 6 (seis) meses;
+                Registro do veículo utilizado para a prestação do serviço, bem como todos os seus dados, como modelo, marca, cor, ano e placa do carro (DUT);
+                Quaisquer documentos adicionais que a Vip Táxi Sobral julgar necessários para realizar o cadastro.
+
+                10.1.1. O TAXISTA assume inteira responsabilidade pela veracidade e regularidade das informações e documentos apresentados, sob as penas da lei.
+
+                10.1.2. Como comprovante de residência, a Vip Táxi Sobral (App: Let’s Go) deverá aceitar: contas de consumo de água, energia elétrica ou telefone; conta de cartão de crédito; Declaração Anual de Importo de Renda de Pessoa Física; IPTU do ano vigente; conta de condomínio; boleto bancário; notificação de infração de trânsito; contrato de aluguel em vigor, com firma do proprietário do imóvel; e declaração do proprietário do imóvel confirmando a residência, com firma reconhecida em cartório.
+
+                10.2. Para utilizar o APLICATIVO, o TAXISTA deverá solicitar à Vip Táxi Sobral (App: Let’s Go) a validação de seu cadastro, fornecendo informações e documentos verídicos, completos e atualizados, conforme a cláusula 10.1 acima, reconhecendo que seu acesso ao APLICATIVO poderá ser negado ou suspenso caso seja constatada falta, erro ou fraude.
+
+                10.2.1. A Vip Táxi Sobral (App: Let’s Go) poderá suspender preventivamente o acesso do TAXISTA ao APLICATIVO caso tome conhecimento de informações imprecisas ou inverídicas em seu cadastro, devendo restabelecê-lo tão logo o TAXISTA corrija ou confirme tais informações.
+
+                10.2.2. Caso o TAXISTA não corrija ou confirme referidas informações no prazo máximo de 15 (quinze) dias, contados da data de solicitação pela Vip Táxi Sobral (App: Let’s Go), a Vip Táxi Sobral (App: Let’s Go) poderá suspender ou resilir o contrato de licenciamento de uso de software, impedindo o acesso do TAXISTA ao APLICATIVO.
+
+                10.3. Após receber a documentação de cadastro, a Vip Táxi Sobral (App: Let’s Go) efetuará uma análise e poderá aceitar ou recusar a solicitação de cadastro do TAXISTA.
+
+                10.3.1. O TAXISTA que tomar ciência de informações imprecisas ou inverídicas, ou de documentos irregulares, constantes do seu cadastro, deverá notificar a Vip Táxi Sobral (App: Let’s Go), requisitando a correção das informações ou apresentando os documentos regularizados.10.3.2. Caso verifique a omissão do TAXISTA, a Vip Táxi Sobral (App: Let’s Go) poderá suspender ou resilir o contrato, impedindo o acesso do TAXISTA ao APLICATIVO.
+
+                10.4. O TAXISTA cujo contrato for suspenso ou resilido e cujo acesso ao APLICATIVO for impedido pela Vip Táxi Sobral (App: Let’s Go) não poderá, salvo expressa liberalidade da Vip Táxi Sobral (App: Let’s Go), realizar novo cadastro.
+
+                10.5. É vedada a transferência, cessão, comodato ou qualquer tipo de transferência ou empréstimo, por qualquer forma, do cadastro do TAXISTA a terceiros. O cadastro do TAXISTA é pessoal e intransferível e qualquer violação poderá resultar em suspensão ou resilição do contrato.
+
+                10.6. Caso o veículo cadastrado no APLICATIVO seja utilizado por mais de um TAXISTA, todos deverão se cadastrar no APLICATIVO individualmente, conforme procedimento determinado nas cláusulas 10.1 e 10.2 acima
+                DO USO DO APLICATIVO PELO TAXISTA
+
+                11.1. Para utilizar o APLICATIVO, são condições indispensáveis que o TAXISTA:
+
+                Possua smartphone ou tablet com acesso à internet e/ou pacote de dados ativo e sistema Android (sempre atualizado para a versão mais recente);
+                Faça o download do APLICATIVO em seu smartphone ou tablet;
+                Ative sua conta no APLICATIVO;
+
+                11.2. O TAXISTA se compromete, sob as penas da lei, a utilizar o APLICATIVO apenas de maneiras e para fins estritamente legais, legítimos e permitidos por estes TERMOS DE USO.
+                DA AVALIAÇÃO DOS TAXISTAS E DA MANUTENÇÃO DO PADRÃO DE QUALIDADE Vip Táxi Sobral (App: Let’s Go)
+
+                12.1. O APLICATIVO permite que o PASSAGEIRO avalie o serviço de transporte individual de passageiros prestado pelo TAXISTA uma vez concluída a corrida. Essa avaliação é facultativa para o PASSAGEIRO, e consiste na atribuição de uma nota de 1 (um) a 5 (cinco) para o atendimento do TAXISTA e uma nota de 1 (um) a 5 (cinco) para as condições seu veículo.
+
+                12.1.1. Na avaliação do atendimento do TAXISTA, o PASSAGEIRO é livre para considerar a gentileza, a presteza e a eficiência, bem como demais critérios que indiquem a qualidade do atendimento.
+
+                12.1.2. Na avaliação das condições do veículo, o PASSAGEIRO é livre para considerar a limpeza, o conforto e o estado de conservação, bem como demais critérios que indiquem as boas condições do veículo.
+
+                12.1.3. Além da atribuição de notas ao atendimento do TAXISTA e às condições de seu veículo, o PASSAGEIRO poderá adicionar livremente comentários gerais a respeito do serviço prestado pelo TAXISTA.
+
+                12.2. O TAXISTA concorda, nos termos e com os efeitos desta cláusula, em ser avaliado pelos PASSAGEIROS.
+
+                12.2.1. O TAXISTA reconhece e aceita que a Vip Táxi Sobral (App: Let’s Go) não está obrigada a filtrar, censurar ou controlar, nem se responsabiliza pelas avaliações realizadas pelos PASSAGEIROS, que são os únicos e exclusivos responsáveis por seu conteúdo. As avaliações não expressam a opinião ou o julgamento da Vip Táxi Sobral (App: Let’s Go) sobre o TAXISTA.
+
+                12.3. A Vip Táxi Sobral (App: Let’s Go) poderá remover informações postadas ou divulgadas pelo USUÁRIO no APLICATIVO, especialmente em virtude de conteúdo impróprio, ofensivo, incorreto, inverídico ou em desacordo com o estipulado por meio destes TERMOS DE USO ou com a legislação aplicável.
+
+                12.4. O TAXISTA aceita que a Vip Táxi Sobral (App: Let’s Go) manterá registros internos acerca da prestação de serviços de transporte individual de passageiros, tais como a taxa de aceitação e cancelamento de corridas, podendo utilizar esses dados para realizar sua própria avaliação sobre o TAXISTA.
+
+                12.5. Semanalmente, será disponibilizado ao TAXISTA o resultado de suas avaliações então disponíveis na referida semana, que consistirá em uma nota de 1 (um) a 5 (cinco), calculada pela média ponderada entre os seguintes critérios:
+
+                Média das notas atribuídas ao atendimento do TAXISTA;
+
+                Média das notas atribuídas às condições do veículo;
+
+                Taxa de aceitação de corridas pelo TAXISTA, normalizada para nota entre 1 (um) e 5 (cinco);
+
+                Taxa de cancelamento de corridas pelo TAXISTA, normalizada para nota entre 1 (um) e 5 (cinco).
+
+                12.5.1. A média das notas atribuídas ao atendimento do TAXISTA terá peso maior que as demais, variando conforme sua região de atuação.
+
+                12.6. O TAXISTA reconhece e aceita que a Vip Táxi Sobral (App: Let’s Go) poderá suspender por tempo indeterminado o contrato de licença de uso de software, dentre outros motivos elencados nas cláusulas 14 e 15 a seguir, caso o TAXISTA apresente avaliações semanais reiteradamente ruins, desde que dadas ao TAXISTA chances para que melhore sua avaliação.
+                DAS FRAUDES E DO CHARGEBACK
+
+                13.1. A Vip Táxi Sobral (App: Let’s Go) não se responsabiliza por quaisquer condutas fraudulentas por parte de USUÁRIO, podendo inclusive impedir, em razão delas, seu acesso ao APLICATIVO.
+
+                13.1.1. A Vip Táxi Sobral (App: Let’s Go) poderá, ainda, agir judicial ou extrajudicialmente contra USUÁRIO envolvido em fraude.
+
+                13.1.2. A Vip Táxi Sobral (App: Let’s Go) analisa caso a caso as suspeitas de fraude e as ocorrências de CHARGEBACK. Durante a verificação de potencial fraude ou CHARGEBACK, a Vip Táxi Sobral (App: Let’s Go) pode reter o pagamento de valores ao TAXISTA em virtude de corridas alegadamente realizadas para evitar o risco de dano ou prejuízo econômico ao PASSAGEIRO e/ou à própria Vip Táxi Sobral (App: Let’s Go).
+
+                13.1.3. A Vip Táxi Sobral (App: Let’s Go) se reserva ao direito de descontar, em pagamentos subsequentes eventualmente devidos ao TAXISTA, os valores anteriormente pagos sobre os quais tenha sido constatada fraude.
+
+                13.1.4. A utilização do APLICATIVO com o intuito de fraude por PASSAGEIRO ou TAXISTA resultará na obrigação de indenizar a Vip Táxi Sobral (App: Let’s Go) por eventuais danos causados e será punível nos termos da legislação em vigor.
+
+                13.2. A Vip Táxi Sobral (App: Let’s Go) não possui qualquer ingerência sobre os CHARGEBACKS, legítimos ou não, realizados por um PASSAGEIRO.
+
+                13.2.1. A Vip Táxi Sobral (App: Let’s Go) não se responsabiliza pelos CHARGEBACKS eventualmente realizados por PASSAGEIRO, nem efetua pagamento ao TAXISTA correspondente a valores perdidos em função dos referidos CHARGEBACKS.
+
+                13.2.2. Em todos os casos de CHARGEBACK, contudo, a Vip Táxi Sobral (App: Let’s Go) empenhará seus melhores esforços para resolução do problema, de forma a evitar a contestação indevida da fatura pelo PASSAGEIRO.
+                DA SUSPENSÃO UNILATERAL DO CONTRATO DE LICENÇA DE USO DE SOFTWARE PELA Vip Táxi Sobral (App: Let’s Go)
+
+                14.1. A suspensão do contrato interrompe a licença de uso do software e proíbe o acesso do TAXISTA ao APLICATIVO temporariamente.
+
+                14.2. A Vip Táxi Sobral (App: Let’s Go) poderá suspender o contrato de licença de uso de software com o TAXISTA por até 30 (trinta) dias sempre que verificada uma das seguintes hipóteses, relatadas por PASSAGEIRO ou PASSAGEIRO CREDENCIADO ou constatadas pela Vip Táxi Sobral (App: Let’s Go):
+
+                14.2.1. Quando o valor da corrida inserido pelo TAXISTA no APLICATIVO for diferente do valor indicado pelo taxímetro ou tabela;
+
+                14.2.2. Quando ocorrerem, dentro de um mesmo período de 7 (sete) dias, 3 (três) cancelamentos pelo TAXISTA de corridas já aceitas pelo APLICATIVO;
+
+                14.2.3. Quando ocorrer, ainda que uma única vez, agressão verbal a PASSAGEIRO ou PASSAGEIRO CREDENCIADO por parte do TAXISTA;
+
+                14.2.4. Quando ocorrerem 2 (duas) condutas imprudentes no trânsito por parte do TAXISTA;
+
+                14.2.5. Quando ocorrerem 2 (duas) condutas de desinformação por parte do TAXISTA, tais como cobrança de taxas indevidas ou transmissão ao PASSAGEIRO ou PASSAGEIRO CREDENCIADO de informações falsas ou enganosas sobre a Vip Táxi Sobral (App: Let’s Go), o funcionamento do APLICATIVO ou o próprio serviço de transporte prestado pelo TAXISTA;
+
+                14.2.6. Quando ocorrerem 2 (duas) condutas de má-fé por parte do TAXISTA, tais como passar recibo com valor incorreto, cobrar do PASSAGEIRO ou PASSAGEIRO CREDENCIADO taxa extra pela opção de pagamento por cartão, negar a realização de corridas curtas, ligar o taxímetro antecipadamente ou utilizar propositalmente trajetos mais longos ou demorados
+
+                14.2.7. Quando for realizada corrida por alguém diferente do TAXISTA cadastrado;
+
+                14.3. A Vip Táxi Sobral (App: Let’s Go) poderá suspender o contrato de licença de uso de software com o TAXISTA por tempo indeterminado sempre que verificada uma das seguintes hipóteses, relatadas por PASSAGEIRO ou PASSAGEIRO CREDENCIADO ou constatadas pela Vip Táxi Sobral (App: Let’s Go):
+
+                14.3.1. Quando o TAXISTA se encontrar sob investigação criminal, até que seja apurada sua responsabilidade pelo delito em questão;
+
+                14.3.2. Quando o TAXISTA se tornar indisponível para contato pelo número de telefone indicado em seu cadastro, até que o contato seja estabelecido com o TAXISTA;
+
+                14.3.3. Quando o TAXISTA realizar corrida com veículo diferente do indicado em seu cadastro, até o envio dos documentos pertinentes à Vip Táxi Sobral (App: Let’s Go) e regularização da situação cadastral;
+
+                14.3.4. Quando o TAXISTA apresentar avaliações semanais reiteradamente ruins, nos termos da cláusula 12 acima, até eventual reconsideração pela Vip Táxi Sobral (App: Let’s Go), a seu critério.
+
+                14.4. A Vip Táxi Sobral (App: Let’s Go) poderá ainda suspender o contrato de licença de uso de software com o TAXISTA por tempo indeterminado sempre que circunstâncias graves ou o risco de danos à Vip Táxi Sobral (App: Let’s Go) ou a terceiros o exigir, respeitados os limites da boa-fé, até que a situação seja analisada individualmente pela Vip Táxi Sobral (App: Let’s Go).
+                DA RESILIÇÃO DO CONTRATO DE LICENÇA DE USO DE SOFTWARE PELA Vip Táxi Sobral (App: Let’s Go)"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="15.1. A resilição do contrato põe fim à licença de uso do software e proíbe permanentemente o acesso do TAXISTA ao APLICATIVO.
+
+                15.2. A Vip Táxi Sobral (App: Let’s Go) poderá resilir o contrato de licença de uso do software com o TAXISTA sempre que houver reincidência em suspensão.
+
+                15.2.1. O TAXISTA reincidente em suspensão estará sujeito à resilição do contrato ainda que as suspensões por ele sofridas sejam devidas a hipóteses diferentes da cláusula 14 acima.
+
+                15.2.2. Nas hipóteses de reincidência, a Vip Táxi Sobral (App: Let’s Go) poderá, por liberalidade e de acordo com seus próprios critérios, entrar em acordo com o TAXISTA para evitar a resilição ou ocorrências futuras. Nesses casos, a Vip Táxi Sobral (App: Let’s Go) mantém a possibilidade de resilir o contrato.
+
+                15.3. A Vip Táxi Sobral (App: Let’s Go) poderá também resilir o contrato de licença de uso do software com o TAXISTA sempre que verificada uma das seguintes hipóteses, relatadas por PASSAGEIRO ou PASSAGEIRO CREDENCIADO ou constatadas pela Vip Táxi Sobral (App: Let’s Go):
+
+                15.3.1. Descumprimento, por parte do TAXISTA, de quaisquer dos termos de uso aqui acordados;
+
+                15.3.2. Ação ou omissão, por parte do TAXISTA, na utilização do APLICATIVO ou na prestação dos serviços de transporte ao PASSAGEIRO ou PASSAGEIRO CREDENCIADO, que cause danos ou prejuízo direto ou indireto à 99 ou a terceiros;
+
+                15.3.3. Uso indevido, irregular ou abusivo do APLICATIVO por parte do TAXISTA que seja considerado prejudicial à imagem ou à operação da Vip Táxi Sobral (App: Let’s Go) ou a terceiros, a critério exclusivo da Vip Táxi Sobral (App: Let’s Go).
+
+                15.3.4. Confirmação judicial da responsabilidade penal do TAXISTA nos processos de que trata a cláusula 14.3.1 acima;
+
+                15.3.5. Quando ocorrerem 4 (quatro) agressões verbais a PASSAGEIRO ou PASSAGEIRO CREDENCIADO por parte do TAXISTA;
+
+                15.3.6. Quando ocorrer, ainda que uma única vez, assédio sexual a PASSAGEIRO ou PASSAGEIRO CREDENCIADO por parte do TAXISTA;
+
+                15.3.7. Quando forem realizadas 2 (duas) corridas por alguém diferente do TAXISTA cadastrado;
+
+                15.3.8. Quando ocorrer, ainda que uma única vez, agressão física a PASSAGEIRO ou PASSAGEIRO CREDENCIADO por parte do TAXISTA;
+
+                15.3.9. Quando ocorrerem reclamações abusivas contra a Vip Táxi Sobral (App: Let’s Go) por parte do TAXISTA, consistentes em reclamações falsas ou enganosas, realizadas por canais indevidos ou sem a tentativa de comunicação prévia e resolução do problema diretamente com a Vip Táxi Sobral (App: Let’s Go).
+
+                15.4. A Vip Táxi Sobral (App: Let’s Go) poderá ainda resilir o contrato de licença de uso do software com o TAXISTA sempre que verificada, ainda que por uma única vez, qualquer conduta fraudulenta por parte do TAXISTA, acarretando ela ou não prejuízo direto e imediato à Vip Táxi Sobral (App: Let’s Go) ou a terceiros.
+
+                15.4.1. São exemplos de condutas fraudulentas por parte do TAXISTA, sem prejuízo de outras hipóteses:
+
+                15.4.1.1. Acordar o valor da corrida com o PASSAGEIRO ou PASSAGEIRO CREDENCIADO, deixando de ativar o taxímetro (Tabela) ou o OTIMIZADOR da Vip Táxi Sobral (App: Let’s Go) ou desrespeitando o valor neles indicado.
+
+                15.4.1.2. Tentar se apropriar indevidamente de promoções ou ações de marketing oferecidas pela Vip Táxi Sobral (App: Let’s Go) a fim de obter recebimentos por prestações de serviço não realizadas.
+
+                15.4.1.3. Utilizar quaisquer aplicativos ou programas que visem a alterar a informação da localização geográfica do TAXISTA para manipular o APLICATIVO, para obtenção de mais chamadas de PASSAGEIRO ou PASSAGEIRO CREDENCIADO ou quaisquer outros fins.
+
+                15.4.1.4. Forçar, induzir ou convencer o PASSAGEIRO ou PASSAGEIRO CREDENCIADO a cancelar a corrida no APLICATIVO quando do embarque ou em qualquer ponto do trajeto para evitar o pagamento de quaisquer valores devidos à Vip Táxi Sobral (App: Let’s Go).
+
+                15.4.2. Independentemente da decisão da Vip Táxi Sobral (App: Let’s Go) sobre resilir ou não o contrato de licenciamento de uso de software, as condutas que indicarem qualquer tipo de fraude ou descumprimento sério dos termos de uso aqui acordados poderão ser submetidas a análise, podendo todos os pagamentos ao TAXISTA ser retidos e o contrato de licença de uso de software suspenso por tempo indeterminado, até a comprovação da licitude da conduta.
+
+                15.5. As informações fornecidas pelo TAXISTA que tiver seu contrato resilido, a exemplo daquele que solicitar o cancelamento de seu cadastro, serão armazenadas pela Vip Táxi Sobral (App: Let’s Go) pelo prazo previsto em lei, para prestação de informações às autoridades competentes.
+
+                15.6. Condutas fraudulentas ou que envolvam agressão física ou assédio sexual poderão, conforme o caso, ser notificadas pela Vip Táxi Sobral (App: Let’s Go) ao Poder Público.
+                DAS EVENTUAIS FALHAS DO APLICATIVO E DA LIMITAÇÃO DE RESPONSABILIDADE
+
+                16.1. A Vip Táxi Sobral (App: Let’s Go) não garante que o APLICATIVO estará disponível ininterruptamente nem que estará livre de erros.
+
+                16.1.1. Eventualmente, o APLICATIVO poderá não estar disponível por motivos técnicos ou falhas da internet, ou por qualquer outro motivo de caso fortuito ou de força maior, alheio ao controle da Vip Táxi Sobral (App: Let’s Go).
+
+                16.1.2. A Vip Táxi Sobral (App: Let’s Go), contudo, envidará os melhores esforços para manter o APLICATIVO no ar durante 24 (vinte e quatro) horas por dia, sem interrupção, salvo a impossibilidade de funcionamento integral e ininterrupto do sistema de telecomunicação ou de informática, por motivos de caso fortuito ou de força maior.
+
+                16.1.3. A Vip Táxi Sobral (App: Let’s Go) não será responsabilizada por danos ou prejuízos causados ao USUÁRIO em virtude de qualquer interrupção no funcionamento do APLICATIVO.
+
+                16.2. A Vip Táxi Sobral (App: Let’s Go) não responderá por quaisquer danos ou prejuízos causados ao smartphone ou tablet do TAXISTA ou de qualquer outro USUÁRIO pelo uso do APLICATIVO, inclusive por qualquer vírus que possa atacar o referido equipamento eletrônico em decorrência do acesso, utilização ou navegação na internet ou como consequência da transferência de dados, arquivos, imagens, textos ou áudio.
+
+                16.2.1. A Vip Táxi Sobral (App: Let’s Go) também não será responsável por quaisquer danos, prejuízos ou pela perda de equipamentos do TAXISTA, ocasionados por condutas de terceiros, caso fortuito ou força maior.
+
+                16.3. A Vip Táxi Sobral (App: Let’s Go) não será responsabilizada por erros ou inconsistências no fornecimento de informações por sistemas independentes, especializados na prestação de serviços de localização no sistema de geoposicionamento global (GPS), radares e afins.
+
+                16.4. A Vip Táxi Sobral (App: Let’s Go) não será responsabilizada, ainda, por conteúdos enviados por terceiros por meio do APLICATIVO. O envio de mensagens e realização de ligações telefônicas a partir das informações disponibilizadas por meio do APLICATIVO são de responsabilidade exclusiva dos proprietários de tais informações e do USUÁRIO que as utilizar.
+                DA PROPRIEDADE INTELECTUAL DA VIP TÁXI SOBRAL (APP: LET’S GO) SOBRE O APLICATIVO
+
+                17.1. Observados o disposto nas Leis nº 9.279/96, 9.609/98 e 9.610/98, e sem prejuízo das demais normas relativas à proteção da propriedade intelectual, o USUÁRIO reconhece que o APLICATIVO, bem como todo o conteúdo disponível nas plataformas tecnológicas ou softwares da Vip Táxi Sobral (App: Let’s Go), incluindo as marcas, logotipos, textos, gráficos, fotografias, vídeos, conteúdo de áudio, telas, programas de computador, bancos de dados e arquivos de transmissão são de propriedade exclusiva da Vip Táxi Sobral (App: Let’s Go) ou dos pertinentes terceiros licenciantes, conforme o caso. É proibida, sob as penas da lei e com engajamento da responsabilidade civil contratual e extracontratual do USUÁRIO infrator, a sua cópia, reprodução, distribuição, transmissão, publicação, conexão ou qualquer outro tipo de modificação sem a prévia e expressa autorização da Vip Táxi Sobral (App: Let’s Go).
+
+                17.2. O TAXISTA reconhece que o download de qualquer conteúdo do APLICATIVO não lhe confere a propriedade sobre o respectivo conteúdo. Quaisquer marcas exibidas no APLICATIVO não devem ser consideradas como de domínio público e são de propriedade exclusiva da Vip Táxi Sobral (App: Let’s Go) ou dos terceiros licenciantes.
+                DA POLÍTICA DE PRIVACIDADE, DO ARMAZENAMENTO E DA SEGURANÇA DE DADOS PESSOAIS
+
+                18.1. Todo e qualquer dado pessoal do TAXISTA, obtido pela Vip Táxi Sobral (App: Let’s Go) quando do cadastro do TAXISTA ou do uso do APLICATIVO, será armazenado em servidores ou meios magnéticos seguros da própria Vip Táxi Sobral (App: Let’s Go) ou de terceiros escolhidos pelos critérios da qualidade e da idoneidade.
+
+                18.1.1. Para os efeitos destes TERMOS DE USO, são considerados “dados pessoais” todos os dados não-públicos relativos à identidade e à vida privada de seu titular.
+
+                18.1.2. Por “servidores ou meios magnéticos seguros” entende-se todo o meio eficaz para o armazenamento de dados que esteja de acordo com os padrões e especificações de segurança empregados por empresas semelhantes à Vip Táxi Sobral (App: Let’s Go).
+
+                18.2. A Vip Táxi Sobral (App: Let’s Go) envidará os melhores esforços, dentro dos limites da proporcionalidade, para manter a confidencialidade e a segurança dos dados pessoais do TAXISTA sob sua guarda.
+
+                18.2.1. A Vip Táxi Sobral (App: Let’s Go) não será responsabilizada, contudo, por danos ou prejuízos sofridos pelo TAXISTA por caso fortuito ou força maior, nem por decorrência da violação ou circunavegação das medidas de segurança implementadas por parte de terceiros que utilizem, irregular ou delituosamente, as redes públicas, a internet ou quaisquer outros meios tecnológicos para violar sistemas e acessar ilegalmente os referidos dados.
+
+                18.2.2. O TAXISTA aceita que seus dados pessoais, ainda que sejam individualizáveis e permitam sua identificação, poderão ser acessados por funcionários da própria Vip Táxi Sobral (App: Let’s Go), para geração de relatórios variados, para a correção de erros operacionais e para a análise de possíveis casos de fraude.
+
+                18.3. O TAXISTA aceita que a Vip Táxi Sobral (App: Let’s Go) utiliza tecnologias comuns de internet para acompanhar as interações do TAXISTA com o APLICATIVO, inclusive com coleta e armazenamento de endereço de IP, página solicitada, tempo de duração do acesso, tipo de aparelho ou terminal, navegador, operadora de telefonia celular, provedor de acesso à internet, localização física do TAXISTA.
+
+                18.4. O TAXISTA aceita que seus dados pessoais podem ser coletados e armazenados por quaisquer formas legítimas de interação com o APLICATIVO, incluindo, mas não apenas, os casos seguintes:
+
+                Quando tais dados forem inseridos no APLICATIVO quando do cadastro do TAXISTA junto à Vip Táxi Sobral (App: Let’s Go);
+
+                Quando da realização do download do APLICATIVO para o smartphone ou tablet do TAXISTA;
+
+                Quando do envio de e-mails à Vip Táxi Sobral (App: Let’s Go);
+
+                Quando da conexão com outros sites e aplicações de internet de parceiros da Vip Táxi Sobral (App: Let’s Go);
+
+                Quando da realização de corridas pelo TAXISTA e consequente registro do trajeto pelo APLICATIVO;
+
+                Quando do contato entre Vip Táxi Sobral (App: Let’s Go) e TAXISTA por meio telefônico;
+
+                Quando do contato entre Vip Táxi Sobral (App: Let’s Go) e TAXISTA ou entre terceiros e TAXISTA por meio de redes sociais;
+
+                Quando tais dados forem fornecidos pelo TAXISTA à Vip Táxi Sobral (App: Let’s Go) por outras formas.
+
+                18.5. O TAXISTA autoriza a Vip Táxi Sobral (App: Let’s Go) a compartilhar seus dados pessoais, de forma agregada e não-individualizada, com anunciantes, patrocinadores e parceiros comerciais, inclusive para efeito de oferecimento de promoções, benefícios e produtos de seu interesse ao TAXISTA, além de mídia programática, remarketing e afins.
+
+                18.5.1. Caso o TAXISTA deseje proibir a divulgação de seus dados pessoais de que trata a cláusula 18.5 acima, deverá enviar notificação à Vip Táxi Sobral (App: Let’s Go) por meio do APLICATIVO. Enquanto não for enviada a referida notificação, e a partir de 15 (quinze) dias da data de preenchimento do seu cadastro, a omissão será considerada como aceite tácito, reconhecendo o TAXISTA o direito da Vip Táxi Sobral (App: Let’s Go) em compartilhar os mencionados dados.
+
+                18.5.2. A proibição estipulada na cláusula 18.5.1 acima não se aplica aos casos em que a divulgação ou transferência dos dados pessoais do TAXISTA seja necessária para a prestação dos serviços de que tratam estes TERMOS DE USO e para o cumprimento das obrigações deles resultantes.
+
+                18.6. O TAXISTA reconhece e aceita que a Vip Táxi Sobral (App: Let’s Go) informará às autoridades públicas competentes os dados pessoais à cuja entrega seja obrigada, nos termos da lei.
+
+                18.6.1. A Vip Táxi Sobral (App: Let’s Go) informará à autoridade judicial, mediante ofício, requisição ou decisão motivada e que especifique o período a que se refere a solicitação, nos termos dos artigos 10º, §1º e 22, Parágrafo Único da Lei 12.965 de 23 de abril de 2014 (Marco Civil da Internet), quaisquer dados pessoais do TAXISTA assim solicitados.
+
+                18.6.2. A Vip Táxi Sobral (App: Let’s Go) informará à autoridade administrativa, mediante ofício ou requisição, nos termos do artigo 10º, §3º da Lei 12.965, dados pessoais cadastrais referentes à qualificação pessoal, filiação e endereço do TAXISTA.
+
+                18.6.3. A Vip Táxi Sobral (App: Let’s Go) informará ao Poder Público, conforme a legislação aplicável à sua região de atuação, dados pessoais do TAXISTA que sejam exigidos pela regulação específica e sejam requisito para a regular prestação do serviço de transporte individual de passageiros pelo TAXISTA.
+
+                18.7. A Vip Táxi Sobral (App: Let’s Go) poderá circular a terceiros os dados pessoais do TAXISTA desde que de forma anônima e não imediatamente traçável ao TAXISTA, para elaboração de relatórios e análises para aperfeiçoamento do APLICATIVO.
+
+                18.8. Exceto nas hipóteses previstas nestes TERMOS DE USO, a Vip Táxi Sobral (App: Let’s Go) compromete-se a não divulgar, vender, trocar, alugar, ceder ou de qualquer forma transacionar dados pessoais do TAXISTA sem sua prévia autorização.
+
+                18.9. O TAXISTA poderá, quando do término da relação contratual com a Vip Táxi Sobral (App: Let’s Go) de que tratam estes TERMOS DE USO, solicitar a exclusão definitiva de seus dados pessoais dos servidores da Vip Táxi Sobral (App: Let’s Go), respeitados os períodos de guarda obrigatória de dados, nos termos do artigo 7º, X da Lei 12.965.
+                DISPOSIÇÕES GERAIS
+"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="19.1. Estes TERMOS DE USO, que se regem pelas leis da República Federativa do Brasil, vigorarão por prazo indeterminado, enquanto o TAXISTA continuar a utilizar o APLICATIVO, podendo ser atualizados periodicamente pela Vip Táxi Sobral (App: Let’s Go) para refletir as novas características e regras do serviço prestado ao TAXISTA, bem como as evoluções na política de privacidade e segurança de dados.
+
+                19.1.1. O TAXISTA concorda para tanto que a Vip Táxi Sobral (App: Let’s Go) poderá alterar estes TERMOS DE USO a qualquer tempo.
+
+                19.1.2. A Vip Táxi Sobral (App: Let’s Go) se compromete a dar publicidade aos novos conteúdos, que entrarão em vigor na data de sua publicação, pelos meios adequados.
+
+                19.1.3. A mera utilização do APLICATIVO pelo TAXISTA faz prova suficiente de sua concordância com estes TERMOS DE USO.
+
+                19.1.4. Caso o TAXISTA não concorde com quaisquer alterações realizadas nestes TERMOS DE USO, deverá cancelar seu cadastro junto à Vip Táxi Sobral (App: Let’s Go) e se abster de utilizar o APLICATIVO, nos termos da cláusula 19.2 abaixo.
+
+                19.2. O TAXISTA que desejar rescindir estes TERMOS DE USO poderá fazê-lo a qualquer tempo e deverá comunicar a Vip Táxi Sobral (App: Let’s Go), interrompendo obrigatória e imediatamente a utilização do APLICATIVO.
+
+                19.3. O TAXISTA não fará jus a qualquer indenização ou compensação, seja pela rescisão destes TERMOS DE USO, seja pela suspensão ou resilição do contrato de licença de uso de software.
+
+                19.3.1. O TAXISTA também não fará jus a qualquer indenização ou compensação pelo impedimento de acesso ao APLICATIVO decorrente da respectiva suspensão, resilição ou rescisão.
+
+                19.4. No caso de qualquer reivindicação ou controvérsia decorrente destes TERMOS DE USO ou a eles relacionada, o TAXISTA e a Vip Táxi Sobral (App: Let’s Go) se comprometem a envidar os melhores esforços para solucionar a questão de forma amigável, no menor tempo e ao menor custo possível para ambas as partes, devendo entreter negociações por prazo razoável, até o máximo de 30 (trinta) dias contados da primeira notificação
+
+                19.5. Não chegando a acordo amigável no prazo estipulado na cláusula 19.4 acima, o TAXISTA e a Vip Táxi Sobral (App: Let’s Go) elegem, desde já, o foro da Comarca de Sobral, Estado do Ceará, em detrimento de qualquer outro, por mais privilegiado que possa ser, para o ajuizamento de toda e qualquer ação judicial ou procedimento administrativo referente a estes TERMOS DE USO ou à relação contratual de licenciamento de uso de software dele decorrente.
+
+                19.6. A eventual tolerância da Vip Táxi Sobral (App: Let’s Go) quanto ao cumprimento imperfeito, ao cumprimento impontual ou ao descumprimento, por parte do TAXISTA, de quaisquer de suas obrigações decorrentes destes TERMOS DE USO constitui ato de mera liberalidade, não criando para o TAXISTA quaisquer direitos e não constituindo renúncia ou novação de qualquer espécie.
+
+                19.7. É vedado ao TAXISTA transferir ou ceder, a qualquer título, sua posição contratual nestes TERMOS DE USO ou qualquer direito ou obrigação deles decorrentes sem o prévio e expresso consentimento da Vip Táxi Sobral (App: Let’s Go).
+
+                19.8. A Vip Táxi Sobral (App: Let’s Go) poderá transferir ou ceder sua posição contratual nestes TERMOS DE USO ou qualquer direito ou obrigação deles decorrentes a qualquer tempo, sem a necessidade de prévio aviso ao ou consentimento do TAXISTA.
+
+                19.9. Aceitando estes TERMOS DE USO, o TAXISTA declara ainda que conhece e aceita igualmente os termos de uso do passageiro, disponíveis no site http://www.viptaxisobral.webnode.com.
+                CONTATO"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Caso reste qualquer dúvida a respeito do conteúdo do presente instrumento, por favor, contate a Vip Táxi Sobral (App: Let’s Go) por meio dos canais abaixo:
+
+                Horário de atendimento: De segunda à sexta das 9h às 20h.
+
+                Telefone: (88) 99928-8420
+
+                SAC: viptaxisobral@gmail.com
+
+                Termos e Condições de Uso entre a Vip Táxi Sobral (App: Let’s Go) e o Passageiro"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Introdução
+                Bem-vindo ao aplicativo LET’S GO da Vip Táxi Sobral! Por favor, certifique-se de ter lido e entendido os “Termos de Uso” e “Política de Privacidade”, doravante denominados “Termos”, que consistem em “Contrato” firmado entre a “Vip Táxi Sobral (App: Let’s Go)” – CPNJ: 23.553.238/0001-40 e o “Usuário” após a manifestação do “Aceite”. O Aceite dos Termos é indispensável para qualquer forma de utilização do “Aplicativo” LET’S GO disponível na Apple App Store, no Google Play e na Windows Phone Store, em conjunto denominados “Aplicativos”. O cadastro como Usuário e/ou utilização do Website é proibido para qualquer pessoa juridicamente incapaz ou que não acorde plenamente com todos os Termos.
+
+                Os Termos vinculam legalmente o Usuário com relação aos atuais ou novos serviços oferecidos pela Vip Táxi Sobral (App: Let’s Go).
+
+                Pelo cadastramento como Usuário e/ou utilização dos Aplicativos ou Serviços de qualquer maneira, o Usuário, independente de utilizar ou não o serviço, concorda em se vincular e cumprir os Termos.
+
+                A Vip Táxi Sobral (App: Let’s Go) se resguarda no direito de realizar alterações/atualizações nos Termos, a qualquer momento, sem aviso prévio e a simples utilização dos Aplicativos após alteração/atualização dos Termos importa em concordância com os mesmos. Caso o Usuário não concorde com as alterações, deverá cancelar sua conta, e cessar toda e qualquer utilização dos Aplicativos. Na ausência de manifestação entender-se-á que o Usuário aceitou tacitamente os Termos e o Contrato continuará vinculando as partes. Recomendamos que o Usuário reveja os Termos com frequência para estar a par de quaisquer atualizações.
+
+
+                Cadastro
+
+                Os usuários que desejam utilizar os Aplicativos precisam obrigatoriamente preencher os campos de cadastro e fornecer informações válidas e corretas. Seu número de telefone será confirmado pela Vip Táxi Sobral (App: Let’s Go) e, em caso de não confirmação, a utilização dos Aplicativos será bloqueada a exclusivo critério da Vip Táxi Sobral (App: Let’s Go).
+
+                As informações do cadastro são de exclusiva responsabilidade de quem as inseriu. No caso de acarretarem danos ou prejuízo de qualquer espécie, sanções legais podem ser tomadas pela Vip Táxi Sobral (App: Let’s Go) a fim de resguardar seus interesses e a integridade dos outros usuários do sistema.
+
+
+                Objeto
+
+                O sistema LET’S GO (incluindo o Aplicativo, o Website e outras plataformas como “Facebook” e websites de terceiros) consiste em uma plataforma que otimiza o contato inicial entre “TAXISTAS” e “Passageiros”.
+
+                Pela plataforma, a Vip Táxi Sobral (App: Let’s Go) permite que Passageiros devidamente cadastrados localizem e contatem Taxistas em sua região para solicitar diretamente e exclusivamente a prestação dos Serviços de Transporte.
+
+                Os Taxistas, por sua vez, utilizam a plataforma como um canal alternativo de contato com Passageiros que desejam contratar seus serviços.
+
+                O contato entre Taxistas e Passageiros pode se dar por mensagens já escritas que são disponibilizadas pelo sistema LET’S GO e não estão sujeitas à cobrança.
+
+                Os Passageiros podem também optar por enviar sms ou ligar para os Taxistas, opções nas quais estarão sujeitos ao pagamento das tarifas de sua operadora de celular.
+
+
+                Do Pagamento
+
+                A Vip Táxi Sobral (App: Let’s Go) disponibilizará em seus Aplicativos um link de acesso ao site da “PayPal” e, ao clicar no link, o Usuário poderá criar uma conta PayPal ou fazer login em sua conta já existente. Ao finalizar o processo de pagamento, o Usuário autoriza a Vip Táxi Sobral (App: Let’s Go) a fazer o débito do valor da corrida em sua conta PayPal.
+
+                Caso não seja possível que ocorra o débito do valor da corrida na conta PayPal do Usuário por qualquer razão, a Vip Táxi Sobral (App: Let’s Go) gerará um título de cobrança e poderá utilizar de todo e qualquer meio extrajudicial ou judicial visando ao recebimento do valor inadimplido pelo Usuário.
+
+                Caso o Usuário opte por realizar o pagamento utilizando “Cartão de crédito”, ele fornecerá seus dados nos Aplicativos e esses dados serão enviados ao Adquirente que é o responsável pela liquidação financeira da transação.
+
+                Para sua segurança, sempre que o Passageiro cadastrar um novo cartão de crédito, a Vip Táxi Sobral (App: Let’s Go) realizará uma cobrança-teste no valor de R$ 5,00 (cinco reais), que será estornada logo em seguida. Essa cobrança-teste não será lançada na fatura, e serve apenas para verificar a validade do cartão de crédito cadastrado.
+
+
+                Limitações de Responsabilidade
+
+                A Vip Táxi Sobral (App: Let’s Go) não presta serviços de transporte ou agenciamento, apenas concede licença de uso de software que serve como ferramenta facilitadora de contato inicial entre Passageiros e Taxistas. Quaisquer defeitos, perdas ou danos relativos ao serviço de táxi são de responsabilidade exclusiva dos Taxistas e Passageiros.
+
+                O Usuário reconhece e concorda que a Vip Táxi Sobral (App: Let’s Go) não realiza seleção de Taxistas, não fiscaliza sua atividade, não atesta sua idoneidade, nem a sua capacidade legal, física ou mental para prestar os serviços de transporte. O Usuário está ciente de que os dados do Taxista divulgados pela Vip Táxi Sobral (App: Let’s Go), incluindo, mas não se limitando a isto, seu nome completo, modelo e placa do veículo, foram fornecidos pelo próprio Taxista. Ao aceitar a prestação dos serviços de transporte pelo Taxista, o Usuário reconhece que a Vip Táxi Sobral (App: Let’s Go) não possui qualquer participação na relação contratual estabelecida entre Taxista e Passageiro.
+
+                Assim sendo, a Vip Táxi Sobral (App: Let’s Go) não se responsabiliza:
+
+                pelos serviços de transporte contratados pelos Usuários por meio da utilização do Aplicativo e do Website;
+
+                pela qualidade e segurança dos Usuários dos Aplicativos, incluindo o condutor do táxi e os Passageiros, em virtude da corrida de táxi contratada;
+
+
+                pela disponibilidade do sistema;
+
+                por erros ou inconsistências no fornecimento de informações relativas ao geoposicionamento (GPS) e aos mapas, que são produzidas por terceiros e integradas ao Aplicativo somente para trazer mais conveniência ao Usuário;
+
+                pela recuperação de itens que passageiros alegam ter esquecido no táxi, nem pelo ressarcimento de valores referentes aos mesmos. Todo e qualquer esforço no sentido de auxiliar o passageiro a reaver os itens é de opção da empresa.
+
+
+                Propriedade Intelectual
+
+                As marcas, nomes, logotipos, nomes de domínio e demais sinais distintivos, bem como todo e qualquer conteúdo, desenho, arte ou layout publicado nos Aplicativos, são de propriedade exclusiva da Vip Táxi Sobral (App: Let’s Go).
+
+                São vedados quaisquer atos ou contribuições tendentes à descompilação, engenharia reversa, modificação das características, ampliação, alteração, mesclagem ou incorporação em quaisquer outros programas ou sistemas. Enfim, toda e qualquer forma de reprodução, total ou parcial, permanente, temporária ou provisória, de forma gratuita ou onerosa, sob quaisquer modalidades, formas ou títulos dos Aplicativos é expressamente vedada.
+
+
+                Sanções
+
+                O uso do Aplicativo LET’S GO de forma indevida em desacordo a estes Termos implicará a exclusão do cadastro do Usuário e a proibição da utilização dos serviços. Seus dados serão preservados para uso das autoridades competentes, caso a Vip Táxi Sobral (App: Let’s Go) seja notificada ou acionada pela violação de direitos de terceiros decorrente do mau uso do sistema.
+
+                O Usuário concorda em indenizar a Vip Táxi Sobral (App: Let’s Go), suas filiais, empresas controladas ou controladoras, diretores, administradores, colaboradores, representantes e empregados por qualquer perda, responsabilização, reclamação ou demanda, por quaisquer prejuízos devido a, ou resultantes da, sua utilização dos Aplicativos.
+
+                O Usuário está ciente de que, caso cancele três corridas consecutivas, terá seu cadastro bloqueado por 24 (vinte e quatro) horas para solicitar qualquer táxi utilizando o Aplicativo da Vip Táxi Sobral (App: Let’s Go), o que não se aplica apenas às corridas corporativas.
+
+                Se o Usuário possuir qualquer pendência relativa a corridas anteriores, não poderá solicitar nova corrida por qualquer meio disponível para tanto, até a regularização do débito.
+
+
+                Política de Privacidade
+
+                A Vip Táxi Sobral (App: Let’s Go) pode recolher, gravar e utilizar em conexão com outros sites e parceiros as informações pessoais do Usuário, incluindo, mas não se limitando a, nome, foto, endereço, número de telefone, interesses, atividades, sexo e idade.
+
+                A Vip Táxi Sobral (App: Let’s Go) se resguarda no direito de gravar seu IP, tipo de navegador, aparelho e operadora de celular, posição geográfica e outros dados relativos às corridas solicitadas.
+
+                A Vip Táxi Sobral (App: Let’s Go) não divulga publicamente nem a terceiros suas informações de modo que possam identificá-lo, mas pode fazê-lo de forma agregada no intuito de realizar análises, estudos, melhoria do sistema e por força de ordem judicial.
+
+                Quando se tratar de corrida corporativa, a divulgação de informações do Usuário e da corrida será divulgada à empresa Contratante dos serviços.
+
+                A Vip Táxi Sobral (App: Let’s Go) está fortemente comprometida em manter a sua privacidade quando estiver visitando o nosso site. Algumas das informações mantidas no nosso servidor são informações que o Usuário se prontifica a fornecer através de formulários, enquanto que algumas são obtidas automaticamente. A menos que o próprio Usuário se prontifique a apresentar dados pessoais, a Vip Táxi Sobral (App: Let’s Go) nunca coletará informações com base nas quais Usuários individuais possam ser identificados.
+
+
+                Informações Automaticamente Coletadas e Armazenadas
+
+                O “Servidor” da Vip Táxi Sobral (App: Let’s Go) coleta automaticamente informações não pessoais. As informações normalmente coletadas incluem o nome de domínio de seu provedor de acesso à internet, o endereço do protocolo de internet (IP) utilizado para conectar o computador do Usuário à internet, o tipo e versão do browser do Usuário, o sistema operacional e plataforma, o tempo médio gasto nos Aplicativos, as páginas visitadas, as informações procuradas, os horários de acesso e outras estatísticas relevantes. A Vip Táxi Sobral (App: Let’s Go) emprega todas essas informações para mensurar o uso de seus sites, bem como para administrá-los e aperfeiçoá-los.
+
+                Algumas das páginas da Vip Táxi Sobral (App: Let’s Go) também podem depositar certas parcelas de informações, chamadas “cookies” (biscoitos), no computador do Usuário. De modo geral, um “cookie” cede um número único ao Usuário, número este que não tem nenhum significado fora do site cedente. Essa tecnologia não coleta informações identificadoras de um Usuário individual, apresentando tais informações apenas de forma global. Essa tecnologia e as informações oferecidas através dela têm por objetivo aperfeiçoar a navegação no Aplicativo LET’S GO. A maioria dos web browsers permite ao Usuário rejeitar ou aceitar a característica “cookie”. Entretanto, é importante notar que os cookies são necessários para lhe oferecer certas características (por exemplo, entrega customizada de informações) disponíveis no Website da LET’S GO. Para mais informações sobre os cookies, acessar http://www.microsoft.com/info/cookies.htm.
+
+                Informações coletadas e armazenadas pela Vip Táxi Sobral (App: Let’s Go), tais como endereço de e-mail e número de celular do Usuário, podem ser utilizadas pela própria Vip Táxi Sobral (App: Let’s Go) como forma de divulgar e promover os serviços da empresa e as novidades relativas a seus produtos.
+
+                Informações pessoais a serem fornecidas pelo Usuário, a critério dele
+
+                Para o recebimento de serviços personalizados, o Usuário terá de fornecer informações pessoais (tais como nome e endereço eletrônico). Nenhuma consequência significativa resultará de sua recusa em apresentar tais informações, exceto o fato de que o Usuário não poderá obter a funcionalidade ou receber as informações que vier a solicitar.
+
+                Ao encaminhar os dados pessoais à Vip Táxi Sobral (App: Let’s Go), o Usuário será tratado como tendo dado sua permissão para o processamento de seus dados pessoais, conforme estabelecido nestes Termos.
+
+                A Vip Táxi Sobral (App: Let’s Go) somente utilizará informações pessoais para os fins que lhe forem indicados na ocasião do seu fornecimento.
+
+                A Vip Táxi Sobral (App: Let’s Go) não divulgará, venderá ou alugará essas informações de identificação pessoal a qualquer outra organização ou entidade, ou as permutará com elas, sem antes ter comunicado o Usuário e este ter dado seu consentimento expresso nesse sentido, ou conforme exigido por lei e por força de ordem judicial, com exceção das corridas corporativas.
+
+                A avaliação do Taxista e do carro feita pelo Usuário é confidencial e não será divulgada ao taxista, exceto por ordem judicial.
+
+                A Vip Táxi Sobral (App: Let’s Go) reserva-se o direito de alterar a presente política a qualquer tempo. A política de privacidade não cria nenhum direito contratual ou outro direito legal com relação a qualquer parte ou em nome da mesma.
+
+                Este Website pode conter links a outros web sites. A presente declaração de privacidade não abrange os referidos sites, não podendo a Vip Táxi Sobral
+(App: Let’s Go) ser responsabilizada pelas práticas de privacidade ou pelo conteúdo desses outros sites."
+                android:layout_marginTop="10dp"/>
+
+            </LinearLayout>
+        </ScrollView>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/linha_uso"
+            android:layout_marginTop="30dp"
+            android:id="@+id/imageView3" />
+
+    </RelativeLayout>
+    -->
+
+    <com.github.barteksc.pdfviewer.PDFView
+        android:id="@+id/pdfview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true" />
+
+</RelativeLayout>

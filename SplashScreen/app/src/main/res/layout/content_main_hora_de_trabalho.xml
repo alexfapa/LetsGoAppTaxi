@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="br.com.tutorialandroid.splashscreen.HoraDeTrabalho.MainHoraDeTrabalho"
+    tools:showIn="@layout/activity_main_hora_de_trabalho"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:scaleType="fitCenter"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        app:srcCompat="@mipmap/telahora" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:text="@string/hora_disponivel" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:ems="10"
+            android:hint="Início do expediente..."
+            android:textAlignment="center"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/hora_inicio"
+            android:layout_width="120dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/bg_msg_you"
+            android:text="HORA INÍCIO"
+            android:textColor="@color/cast_libraries_material_featurehighlight_text_body_color" />
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/editText2"
+            android:layout_below="@+id/editText2"
+            android:ems="10"
+            android:hint="Final do expediente..."
+            android:textAlignment="center"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/hora_final"
+            android:layout_width="120dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/bg_msg_you"
+            android:text="HORA FINAL"
+            android:textColor="@color/cast_libraries_material_featurehighlight_text_body_color" />
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editText3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="11dp"
+            android:text="Salvar" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="SALVAR"
+            android:onClick="signIn"
+            android:background="#e9ab00"
+            android:layout_below="@+id/editText3"
+            android:layout_centerHorizontal="true" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/map_perfil"
+        android:orderInCategory="100"
+        android:title="Meu Perfil"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/map_feedback"
+        android:orderInCategory="100"
+        android:title="FeedBack"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/map_ajuda"
+        android:orderInCategory="100"
+        android:title="Ajuda"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/map_teste"
+        android:orderInCategory="100"
+        android:title="Histórico de Corridas"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/map_sair"
+        android:orderInCategory="100"
+        android:title="Sair"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/map_corrida"
+        android:orderInCategory="100"
+        android:title="Teste Tela de Corrida"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/distance"/>
+
+<!--    <item
+          android:id="@+id/myswitch"
+          android:title="LIVRE / OCUPADO"
+          app:showAsAction="always"
+          android:actionLayout="@layout/content_main_map"
+      <item
+          android:id="@+id/map_teste"
+          android:orderInCategory="100"
+          android:title="Teste WS"
+          app:showAsAction="never" />
+
+      <item
+          android:id="@+id/map_paypal"
+          android:orderInCategory="100"
+          android:title="Teste Perfil"
+          app:showAsAction="never" />-->
+
+
+</menu>

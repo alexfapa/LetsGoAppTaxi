@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.zellius:rxlocationmanager-0.1.2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/rxlocationmanager-0.1.2.aar/dbd233d40a5540a36a566cbf6b2a4cdd/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/rxlocationmanager-0.1.2.aar/dbd233d40a5540a36a566cbf6b2a4cdd/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.zellius/rxlocationmanager/0.1.2/e241a231a3de0afc6448def791bf246f55354d29/rxlocationmanager-0.1.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#ffffff"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainPayPal">
+
+
+    <LinearLayout
+        android:id="@+id/layoutcorrida"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#b1cacaca">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Valor da Corrida: R$"
+            android:textSize="15dp"
+            android:textStyle=""
+            android:textAlignment="center" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Valor da Corrida"
+            android:enabled="false"
+            android:textColor="#028f1b"
+            android:textSize="17dp"
+            android:id="@+id/valorCorrida"
+            android:textAlignment="center"
+            android:inputType="none" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:visibility="invisible"
+        android:id="@+id/nome_cli"/>
+
+    <TextView
+        android:id="@+id/usu_ponto_de_partida"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:visibility="invisible"
+        android:id="@+id/usu_destino"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:visibility="invisible"
+        android:id="@+id/pagamento"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="0dp"
+        android:background="#b154514a"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Digite o valor da corrida"
+            android:textAlignment="center"
+            android:textColor="#39ffeb"
+            android:textSize="18dp" />
+
+        <EditText
+            android:id="@+id/editTextAmount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="R$ 0,00"
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textSize="30dp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonPay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:background="#33b370"
+        android:text="PAGAR COM O CARTÃO UTILIZANDO PAYPAL"
+        android:textColor="#ffffff" />
+
+    <!--<Button
+        android:id="@+id/buttonPaynoTaxi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:background="#33b370"
+        android:text="PAGAR COM PAYPAL"
+        android:textColor="#ffffff" />-->
+    <Button
+        android:id="@+id/buttonPaynoTaxi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:background="#33b370"
+        android:text="PAGAMENTO NO TÁXI"
+        android:textColor="#ffffff" />
+
+
+<!--
+    <LinearLayout
+        android:id="@+id/layoutcorrida"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Valor da Corrida: R$"
+        android:textSize="15dp"
+        android:textStyle=""
+        android:textAlignment="center" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Valor da Corrida"
+        android:enabled="false"
+        android:textSize="17dp"
+        android:id="@+id/valorCorrida"
+        android:textAlignment="center" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:background="#b154514a"
+        android:layout_centerVertical="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Digite o valor da corrida"
+            android:textColor="#39ffeb"
+            android:textSize="18dp"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/editTextAmount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:hint="R$ 0,00"
+            android:textSize="30dp"
+            android:inputType="numberDecimal"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonPay"
+        android:text="PAGAR COM PAYPAL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#93ffc7"
+        android:layout_marginTop="465dp"/>
+-->
+
+</LinearLayout>
+
