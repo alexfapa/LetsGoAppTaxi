@@ -6,7 +6,7 @@ package br.com.tutorialandroid.splashscreen.loginActivity;
 
 public class Constants {
     //ARQUIVO INDEX.PHP
-    public static final String BASE_URL = "http://www.letsgosobral.com/";//http://www.letsgosobral.esy.es/";  //http://www.letsgosobral.com.br/
+    public static final String BASE_URL = "http://www.letsgosobral.com/";
     public static final String REGISTER_OPERATION = "register";
     public static final String LOGIN_OPERATION = "login";
     public static final String CHANGE_PASSWORD_OPERATION = "chgPass";
