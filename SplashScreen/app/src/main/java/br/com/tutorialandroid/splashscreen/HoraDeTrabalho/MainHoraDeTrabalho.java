@@ -32,7 +32,7 @@ public class MainHoraDeTrabalho extends AppCompatActivity {
         String login = sp.getString("login", "");
         String password = sp.getString("password", "");
 
-        if(login.equals("renato") && password.equals("123")){
+        if(login.equals("") && password.equals("")){
             Intent intent = new Intent(MainHoraDeTrabalho.this, MainMapActivity.class);
             startActivity(intent);
         }
@@ -47,7 +47,7 @@ public class MainHoraDeTrabalho extends AppCompatActivity {
         String login = etLogin.getText().toString();
         String password = etPassword.getText().toString();
 
-        if(login.equals("renato") && password.equals("123")){
+        if(login.equals("") && password.equals("")){
 
             // VERIFY CHECKBOX FOR SHAREDPREFERENCES
             if(saveLogin.isChecked()){
